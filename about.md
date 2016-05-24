@@ -4,12 +4,4 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Rationalist, pre-GWWC EA, Asperger&rsquo;s, 95%-vegetarian speciesist, youth-rights supporter, she/they. On [Diaspora*](https://diaspora.bohramt.de/people/157bffd01aa701339164486000be38b1). `727B 9ABF 24A5 D96E 1D64 5582 5ECF A73F B581 9EDC`

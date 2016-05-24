@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Art
+permalink: /art/
 ---
 The files here are **not** CC-licensed at this time. Downloading for personal use is permitted. If you're interested in other uses, please contact me. Chances are good I'll approve, but I'd like to be kept in the loop.
 
