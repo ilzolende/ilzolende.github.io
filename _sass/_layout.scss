@@ -43,13 +43,14 @@ body>header {
     }
 }
 
+
 figure {
-  border-bottom: dotted thin $tertiary-text-color;
-  padding-top: $spacing-unit;
+  border-top: dotted thin $tertiary-text-color;
   text-align: center;
   
-  :last-child {
-    border-bottom: none;
+  p>img:only-child {
+    margin-left: auto;
+    margin-right: auto;
   }
   
   >p {
@@ -63,10 +64,10 @@ figure {
       margin: 0;
       
       img {
-        background-color: $text-color;
+        background-color: $vibrant-text-color-4;
         max-width: 15em;
         max-height: 15em;
-        margin: $spacing-unit;
+        margin: $spacing-unit / 2;
       }
     }
   }

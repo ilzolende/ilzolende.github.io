@@ -61,4 +61,3 @@ Tree branches.
 A hexagonal tiling pattern.
 </figcaption>
 </figure>
-<figure>
