@@ -11,7 +11,7 @@ email: ilzolende@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   The currently art-centric website of Ilzolende Kiefer.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ilzolende.github.io/" # the base hostname & protocol for your site
+url: "https://ilzolende.github.io" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
 github_username:  ilzolende
 
