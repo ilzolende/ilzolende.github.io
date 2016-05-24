@@ -53,6 +53,9 @@ figure {
     margin-left: auto;
     margin-right: auto;
   }
+  img {
+    border: solid 0.25rem;
+  }
   
   ul {
     list-style: inside none none;
@@ -66,7 +69,7 @@ figure {
         background-color: $vibrant-text-color-4;
         max-width: 15em;
         max-height: 15em;
-        margin: $spacing-unit / 2;
+        margin: 0.25rem;
       }
     }
   }
