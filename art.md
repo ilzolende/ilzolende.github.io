@@ -5,7 +5,7 @@ permalink: /art/
 ---
 The files here are **not** CC-licensed at this time. Downloading for personal use is permitted. If you're interested in other uses, please contact me. Chances are good I'll approve, but I'd like to be kept in the loop.
 
-***
+<figure>
 
 [![vector portrait of me](/images/9KB_fixed.svg "Ilzolende Kiefer")](/images/9KB_fixed.svg)
 [![vector portrait of Alison](/images/alison_morais.svg "Alison Morais")](/images/alison_morais.svg)
@@ -14,6 +14,7 @@ The files here are **not** CC-licensed at this time. Downloading for personal us
 
 Some portraits. There is [a monochrome version of the first](/images/monochrome-on-mulberry.svg).
 
+</figure>
 ***
 
 ![flag with weird shield thing](/images/circle_flag.svg)
