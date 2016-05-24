@@ -20,28 +20,30 @@ body {
 body>header {
     @include contentblock;
     border-bottom: solid;
-}
 
-body>header h1 {
-    font-size: $spacing-unit;
-    line-height: 1;
-    margin-bottom: 0;
-    color: $vibrant-text-color-3;
 
-    &,
-    &:visited {
-        color: $vibrant-text-color-3;
+    h1 {
+      font-size: $spacing-unit;
+      line-height: 1;
+      margin-bottom: 0;
+      color: $vibrant-text-color-3;
+
+      &,
+      &:visited {
+          color: $vibrant-text-color-3;
+      }
     }
-}
 
-body>header nav {
-    ul {
-      list-style: inside none none;
-      padding-left: 0;
-      li {
-        display: inline-block;
-        margin: 0;
-        margin-right: 1em;
+    nav {
+      ul {
+        list-style: inside none none;
+        padding-left: 0;
+        margin-left: 0;
+        li {
+          display: inline-block;
+          margin: 0;
+          margin-right: 1em;
+        }
       }
     }
 }
