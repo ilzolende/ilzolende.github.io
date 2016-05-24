@@ -113,11 +113,8 @@ a {
     }
 
     &:hover {
-        color: darken($vibrant-text-color-1, 10%);
+        color: $vibrant_text_color_4;
         text-decoration: underline;
-    }
-    &:visited:hover {
-        color: lighten($vibrant-text-color-2, 10%);
     }
 }
 

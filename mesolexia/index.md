@@ -3,4 +3,4 @@ layout: mesolexia
 title: Cure Mesolexia Now!
 permalink: /mesolexia/
 ---
-Supporting a better life for tomorrow's children.
+We work to raise public awareness of the harm mesolexia causes, and bring those in search of a cure or preventative measure together, with the goal of create a faster world for current mesolexics.
