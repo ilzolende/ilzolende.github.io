@@ -118,12 +118,15 @@ a {
     text-decoration: none;
 
     &:visited {
-        color: lighten($vibrant-text-color-1, 15%);
+        color: $vibrant-text-color-2;
     }
 
     &:hover {
-        color: $vibrant-text-color-2;
+        color: darken($vibrant-text-color-1, 10%);
         text-decoration: underline;
+    }
+    &:visited:hover {
+        color: lighten($vibrant-text-color-2, 10%);
     }
 }
 

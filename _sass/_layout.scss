@@ -24,7 +24,7 @@ body>header {
       margin-bottom: $spacing-unit;
       color: $vibrant-text-color-3;
 
-      a, a:visited {
+      a, a:visited, a:hover, a:visited:hover {
           color: $vibrant-text-color-3;
       }
     }
@@ -79,7 +79,6 @@ figure {
       display: inline-block;
       
       img {
-        background-color: $vibrant-text-color-4;
         max-width: 15em;
         max-height: 15em;
         margin: 0.25rem;
