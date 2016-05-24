@@ -20,11 +20,12 @@ body {
 body>header {
     @include contentblock;
     border-bottom: solid;
+    margin-bottom: $spacing-unit;
 
     h1 {
       font-size: $spacing-unit;
       line-height: 1;
-      margin: 1em 0;
+      margin: 1em 0 ($base-font-size * $base-line-height);
       color: $vibrant-text-color-3;
 
       a, a:visited {
