@@ -47,6 +47,7 @@ body>header {
 figure {
   border-top: dotted thin $tertiary-text-color;
   text-align: center;
+  padding-top: $spacing-unit;
   
   p>img:only-child {
     margin-left: auto;
@@ -62,6 +63,7 @@ figure {
     margin-left: 0;
     li {
       margin: 0;
+      display: inline-block;
       
       img {
         background-color: $vibrant-text-color-4;
