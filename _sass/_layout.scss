@@ -43,6 +43,19 @@ body>header {
     }
 }
 
+ul.post-list {
+  margin-left: 1cr;
+  list-style-type: circle;
+  
+  .post-meta {
+    font-size: $small-font-size;
+  }
+  
+  a {
+    font-weight: bold;
+  }
+}
+
 
 figure {
   border-top: dotted thin $tertiary-text-color;
