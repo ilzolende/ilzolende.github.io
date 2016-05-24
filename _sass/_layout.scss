@@ -14,7 +14,6 @@ body {
  * Site header
  */
 body>header {
-    @include contentblock;
     border-bottom: solid $tertiary-text-color;
     margin-bottom: $spacing-unit;
 
