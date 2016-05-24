@@ -21,15 +21,13 @@ body>header {
     @include contentblock;
     border-bottom: solid;
 
-
     h1 {
       font-size: $spacing-unit;
       line-height: 1;
-      margin-bottom: 0;
+      margin: 1em 0;
       color: $vibrant-text-color-3;
 
-      &,
-      &:visited {
+      a, a:visited {
           color: $vibrant-text-color-3;
       }
     }
