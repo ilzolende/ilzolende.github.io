@@ -23,7 +23,7 @@ Flag derived from abstract sketches.
 <figure>
 ![flag with Sylvicola wing veins](/images/gnats.svg)
 <figcaption>
-Flag derived from [File:Sylvicola wing veins.svg](https://en.wikipedia.org/wiki/File:Sylvicola_wing_veins.svg), a file made by Giancarlo Dessì. Unlike other items on this page, it is [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en) licensed. Inspired by a request from [@nihilsupernum](http://nihilsupernum.tumblr.com).
+Flag derived from [File:Sylvicola wing veins.svg](https://en.wikipedia.org/wiki/File:Sylvicola_wing_veins.svg), a file made by Giancarlo Dessì. Unlike other items on this page, it is [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en) licensed. Inspired by a request from [@nniihilsupernum](http://nniihilsupernum.tumblr.com).
 </figcaption>
 </figure>
 <figure>
