@@ -1,6 +1,10 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+@charset "utf-8";
+
+$body-width: 40em;
+
 $base-font-family: Arial, "DejaVu Sans", serif;
 $mono-font-family: "DejaVu Sans Mono", monospace;
 $base-font-size:   100%;
@@ -13,12 +17,11 @@ $text-color: #000;
 $background-color: #fff;
 
 $secondary-text-color: #666; //lower contrast
-$tertiary-text-color: #999; //lowest contrast
+$tertiary-text-color: #ccc; //lowest contrast
 $vibrant-text-color-1: #00f;
 $vibrant-text-color-2: #90c;
 $vibrant-text-color-3: #f60;
 $vibrant-text-color-4: #f00;
 
-@charset "utf-8";
 @import "base";
 @import "layout";
