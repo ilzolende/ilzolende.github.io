@@ -60,11 +60,14 @@ figure {
     padding-left: 0;
     margin-left: 0;
     li {
-      display: inline-block;
-      margin: $spacing-unit;
-      background-color: $text-color;
-      max-width: 15em;
-      max-height: 15em;
+      margin: 0;
+      
+      img {
+        background-color: $text-color;
+        max-width: 15em;
+        max-height: 15em;
+        margin: $spacing-unit;
+      }
     }
   }
 }
