@@ -42,6 +42,16 @@ body>header {
       }
     }
 }
+ul.post-list {
+  list-style: inside none none;
+  
+  li {
+    border-top: dotted thin $tertiary-text-color;
+  }
+  li:last-child {
+    border-bottom: dotted thin $tertiary-text-color;
+  }
+}
 
 
 figure {
