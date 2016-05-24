@@ -44,6 +44,7 @@ body>header {
 }
 ul.post-list {
   list-style: inside none none;
+  margin-left: 0;
   
   li {
     border-top: dotted thin $tertiary-text-color;
