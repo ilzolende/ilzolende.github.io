@@ -18,10 +18,10 @@ body>header {
     margin-bottom: $spacing-unit;
 
     h1 {
-      font-size: $spacing-unit;
+      font-size: 2 * $spacing-unit;
       line-height: 1;
-      margin-top: 1em;
-      margin-bottom: 0.5em;
+      margin-top: $spacing-unit;
+      margin-bottom: $spacing-unit;
       color: $vibrant-text-color-3;
 
       a, a:visited {
@@ -41,4 +41,30 @@ body>header {
         }
       }
     }
+}
+
+figure {
+  border-bottom: dotted thin $tertiary-text-color;
+  padding-top: $spacing-unit;
+  text-align: center;
+  
+  :last-child {
+    border-bottom: none;
+  }
+  
+  >p {
+    text-align: justify;
+  }
+  ul {
+    list-style: inside none none;
+    padding-left: 0;
+    margin-left: 0;
+    li {
+      display: inline-block;
+      margin: $spacing-unit;
+      background-color: $text-color;
+      max-width: 15em;
+      max-height: 15em;
+    }
+  }
 }

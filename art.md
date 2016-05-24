@@ -6,10 +6,10 @@ permalink: /art/
 The files here are **not** CC-licensed at this time. Downloading for personal use is permitted. If you're interested in other uses, please contact me. Chances are good I'll approve, but I'd like to be kept in the loop.
 
 <figure>
-[![vector portrait of me](/images/9KB_fixed.svg "Ilzolende Kiefer")](/images/9KB_fixed.svg)
-[![vector portrait of Alison](/images/alison_morais.svg "Alison Morais")](/images/alison_morais.svg)
-[![vector portrait of Ozy](/images/ozy_400_500.svg "Ozy Frantz")](/images/ozy_400_500.svg)
-[![vector portrait of DistinctiveHatAnon](/images/dhat.svg "DistinctiveHatAnon")](/images/dhat.svg)
+- [![vector portrait of me](/images/9KB_fixed.svg "Ilzolende Kiefer")](/images/9KB_fixed.svg)
+- [![vector portrait of Alison](/images/alison_morais.svg "Alison Morais")](/images/alison_morais.svg)
+- [![vector portrait of Ozy](/images/ozy_400_500.svg "Ozy Frantz")](/images/ozy_400_500.svg)
+- [![vector portrait of DistinctiveHatAnon](/images/dhat.svg "DistinctiveHatAnon")](/images/dhat.svg)
 <figcaption>
 Some portraits. There is [a monochrome version of the first](/images/monochrome-on-mulberry.svg).
 </figcaption>
@@ -48,9 +48,9 @@ Something that looks kind of like a stained-glass window.
 </figcaption>
 </figure>
 <figure>
-[![branch silhouette](/images/branches_1.svg)](/images/branches_1.svg)
-[![branch silhouette](/images/branches_2.svg)](/images/branches_2.svg)
-[![branch silhouette](/images/branches_3.svg)](/images/branches_3.svg)
+- [![branch silhouette](/images/branches_1.svg)](/images/branches_1.svg)
+- [![branch silhouette](/images/branches_2.svg)](/images/branches_2.svg)
+- [![branch silhouette](/images/branches_3.svg)](/images/branches_3.svg)
 <figcaption>
 Tree branches.
 </figcaption>
