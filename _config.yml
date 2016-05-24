@@ -16,4 +16,4 @@ url: "https://ilzolende.github.io" # the base hostname & protocol for your site
 github_username:  ilzolende
 
 # Build settings
-markdown: kramdown
+markdown: pandoc
