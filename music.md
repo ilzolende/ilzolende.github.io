@@ -10,3 +10,4 @@ The files here are **not** CC-licensed at this time. Downloading for personal us
 - [The Devil Went Down To Harvard](/assets/music/harvard.ogg). Recitation of [@deusvulture's lyrics](http://vulture.neocities.org/verse/devil.html).
 - [Shakespeare's Sonnet 44](/assets/music/sonnet44.mp3)
 - [Du bist wie eine Blume](/assets/music/wie-eine-blume.mp3) by Heinrich Heine
+- [Leise rieselt der Schnee](/assets/music/leise_rieselt.ogg) by Eduard Ebel
