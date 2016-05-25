@@ -7,7 +7,7 @@ permalink: /music/
 
 {% for audio in site.music %}
   <section class="musicblock">
-    <audio src="{{ audio.audio_path }}" preload="metadata" controls></audio>
+    <audio src="{{ audio.audio_path }}" preload="metadata" muted="true" controls>Your browser does not support HTML5 audio. Click <a href="{{ audio.audio_path }}">here</a> to listen.</audio>
     <p>{{ audio.title }}</p>
     <p>
       {% if audio.recording_type contains "song" %}

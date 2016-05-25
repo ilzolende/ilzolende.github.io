@@ -100,7 +100,7 @@ figure {
   // audio{margin-top: $spacing-unit;}
   margin-bottom: $spacing-unit;
   p {margin: 0;}
-  p + p {font-size: $small-font-size;}
+  p + p {font-size: $small-font-size; color: $secondary-text-color;}
   audio + p {
     margin-top: 0;
   }
