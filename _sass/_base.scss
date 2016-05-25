@@ -59,7 +59,7 @@ figure > img {
 }
 
 figcaption {
-    font-size: $small-font-size;
+    font-size: $base-font-size;
 }
 
 
@@ -95,7 +95,7 @@ h1, h2, h3, h4, h5, h6 {
  */
 a {
     color: $vibrant-text-color-1;
-    text-decoration: none;
+    // text-decoration: none;
 
     &:visited {
         color: $vibrant-text-color-2;
@@ -103,7 +103,7 @@ a {
 
     &:hover {
         color: $vibrant_text_color_4;
-        text-decoration: underline;
+        // text-decoration: underline;
     }
 }
 

@@ -3,7 +3,7 @@
  */
 
 body {
-  width: $body-width;
+  max-width: $body-width;
   margin-left:auto;
   margin-right:auto;
   padding-left: $base-line-height * 1em;
@@ -22,10 +22,14 @@ body>header {
       line-height: 1;
       margin-top: $spacing-unit;
       margin-bottom: $spacing-unit;
-      color: $vibrant-text-color-3;
 
-      a, a:visited, a:hover, a:visited:hover {
+      a, a:visited {
           color: $vibrant-text-color-3;
+          text-decoration: none;
+      }
+      a:hover{
+        text-decoration: underline;
+        color: $vibrant-text-color-3;
       }
     }
 
@@ -39,7 +43,7 @@ body>header {
           margin: 0;
           margin-right: 0.5em;
           a {
-            text-decoration: underline;
+            // text-decoration: underline;
           }
         }
       }
@@ -69,12 +73,19 @@ figure {
   border-top: dotted thin $tertiary-text-color;
   text-align: center;
   
+  &.L10a140 img{
+    border-color: $secondary-text-color;
+    &:first-child{
+      border-width: (3rem / 16);
+    }
+  }
+  
   p>img:only-child {
     margin-left: auto;
     margin-right: auto;
   }
   img {
-    border: solid 0.25rem;
+    border: ridge 0.25rem;
   }
   
   ul {
@@ -98,12 +109,12 @@ figure {
   // border-top: dotted thin $tertiary-text-color;
   // audio{margin-top: $spacing-unit;}
   display: inline-block;
-  width: 14em;
+  width: 47.5%;
   text-align: left;
   // height: $spacing-unit * 4;
   audio {
     display: block;
-    width: 12.5em;
+    width: 90%;
     background-color: $vibrant-text-color-2;
   }
   margin-bottom: $spacing-unit;
@@ -119,6 +130,8 @@ figure {
   .songtext {
     font-size: $small-font-size;
     color: $secondary-text-color;
+    height: $spacing-unit * 2;
+    display: table-cell;
     margin-top: 0;
   }
 }
