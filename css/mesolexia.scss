@@ -3,7 +3,7 @@
 ---
 @charset "utf-8";
 
-$body-width: 40em;
+/*$body-width: 40em;
 
 $base-font-family: "DejaVu Sans", Arial, serif;
 $mono-font-family: "DejaVu Sans Mono", monospace;
@@ -21,7 +21,6 @@ $tertiary-text-color: #ccc; //lowest contrast
 $vibrant-text-color-1: #00f;
 $vibrant-text-color-2: #90c;
 $vibrant-text-color-3: #f60;
-$vibrant-text-color-4: #f00;
+$vibrant-text-color-4: #f00;*/
 
-@import "base";
-@import "layout";
+@import "cayman";
