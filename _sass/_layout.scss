@@ -99,19 +99,27 @@ figure {
   // border-top: dotted thin $tertiary-text-color;
   // audio{margin-top: $spacing-unit;}
   display: inline-block;
-  text-align: center;
   width: 14em;
+  text-align: left;
   // height: $spacing-unit * 4;
   audio {
     display: block;
-    width: 100%;
-    background-color: $tertiary-text-color;
+    width: 12.5em;
+    background-color: $vibrant-text-color-2;
   }
   margin-bottom: $spacing-unit;
-  .songname{height: $spacing-unit * 2; display: table;}
-  .songname p {display: table-cell; vertical-align: middle; text-align: center;}
-  .songname + p {font-size: $small-font-size; color: $secondary-text-color; margin: 0;}
-  audio + p {
+  .songname{
+    height: $spacing-unit * 2;
+    display: table;
+  }
+  .songname p {
+    display: table-cell;
+    margin: 0;
+    vertical-align: middle;
+  }
+  .songtext {
+    font-size: $small-font-size;
+    color: $secondary-text-color;
     margin-top: 0;
   }
 }
