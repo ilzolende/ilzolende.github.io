@@ -8,3 +8,5 @@ GitHub is having a Very Frustrating username issue, which I wish the desktop cli
 Ugh.
 
 On a lighter note, this is far easier than Neocities, and I really like it. Can't wait to add the mesolexia content!
+
+Update: Amelia helped me rewrite history! Thanks, Amelia.
