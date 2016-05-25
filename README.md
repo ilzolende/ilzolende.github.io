@@ -1,2 +1,2 @@
 # ilzolende.github.io
-My website. Currently SVG-centric.
+[My website.](https://ilzolende.github.io/).
