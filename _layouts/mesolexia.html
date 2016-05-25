@@ -2,35 +2,30 @@
 <html>
 
   {% include head.html %}
-  <link rel="stylesheet" href="{{ "/css/mesolexia.css" | prepend: site.baseurl }}">
+  <meta name="theme-color" content="#f60">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/normalize.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/cayman.css">
 
   <body>
-    <header>
-    <h1><a href="/mesolexia/">Cure Mesolexia Now!</a></h1>
+    <header class="page-header">
+    <h1 class="project-name"><a href="/mesolexia/">Cure Mesolexia Now!</a></h1>
+    <h2 class="project-tagline">Raising awareness since 2015</h2>
     <nav>
-      <ul>
-        <!--{% for my_page in site.pages %}
-          {% if my_page.title %}
-          <li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
-          {% endif %}
-        {% endfor %}-->
-        <!--Can't get pages working right now, sorry-->
-        <li><a class="page-link" href="/mesolexia/what/">What is Mesolexia?</a></li>
-        <li><a class="page-link" href="/mesolexia/know/">Know the Signs</a></li>
-        <li><a class="page-link" href="/mesolexia/about/">About Us</a></li>
-        <li><a class="page-link" href="/mesolexia/shirts/">Shirts</a></li>
-        <li><a class="page-link" href="/mesolexia/donate/">Donate</a></li>
-        <li><a class="page-link" href="#">Walk for a Cure</a></li>
-        <li><a class="page-link" href="/">Zeroed E-Kiln File</a></li>
-      </ul>
+        <a class="btn" href="/mesolexia/what/">What is Mesolexia?</a>
+        <a class="btn" href="/mesolexia/know/">Know the Signs</a>
+        <a class="btn" href="/mesolexia/about/">About Us</a>
+        <a class="btn" href="/mesolexia/shirts/">Shirts</a>
+        <a class="btn" href="/mesolexia/donate/">Donate</a>
+        <a class="btn" href="#">Walk for a Cure</a>
+        <a class="btn" href="/">Zeroed E-Kiln File</a>
     </nav>
     </header>
-    <div class="page-content">
-      <div class="wrapper">
+    <section class="main-content">
         {{ content }}
-      </div>
-    </div>
-    <footer><p>Cure Mesolexia Now! is run by Ilzolende Kiefer, and remains unincorporated at this time.</p></footer>
+      <footer class="site-footer"><span class="site-footer-owner"><a href="{{ site.url }}/mesolexia/">Cure Mesolexia Now!</a> is run by Ilzolende Kiefer.</span>
+      <span class="site-footer-credits">This page was generated using the <a href="https://github.com/pietromenna/jekyll-cayman-theme">Cayman theme</a> by <a href="http://github.com/jasonlong">Jason Long</a>.</span>
+    </footer>
+  </section>
   </body>
 
 </html>
