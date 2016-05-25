@@ -1,0 +1,13 @@
+---
+layout: page
+title: Music & Poetry
+permalink: /music/
+---
+<p>The files here are <strong>not</strong> CC-licensed at this time. Downloading for personal use is permitted. If you're interested in other uses, please contact me. Chances are good I'll approve, but I'd like to be kept in the loop.</p>
+
+{% for audio in site.music %}
+  <section class="musicblock">
+    <audio src="{{ audio.audio_path }}" preload="metadata" controls></audio>
+    <p>{{ audio.title }}, a {{ audio.recording_type }}. Text available <a href="{{ audio.text_path }}">here</a>.</p>
+  </section>
+{% endfor %}
