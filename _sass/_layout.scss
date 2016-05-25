@@ -98,6 +98,7 @@ figure {
 .musicblock {
   // border-top: dotted thin $tertiary-text-color;
   // audio{margin-top: $spacing-unit;}
+  audio {display: block;}
   margin-bottom: $spacing-unit;
   p {margin: 0;}
   p + p {font-size: $small-font-size; color: $secondary-text-color;}
