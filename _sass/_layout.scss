@@ -98,10 +98,19 @@ figure {
 .musicblock {
   // border-top: dotted thin $tertiary-text-color;
   // audio{margin-top: $spacing-unit;}
-  audio {display: block;}
+  display: inline-block;
+  text-align: center;
+  width: 14em;
+  // height: $spacing-unit * 4;
+  audio {
+    display: block;
+    width: 100%;
+    background-color: $tertiary-text-color;
+  }
   margin-bottom: $spacing-unit;
-  p {margin: 0;}
-  p + p {font-size: $small-font-size; color: $secondary-text-color;}
+  .songname{height: $spacing-unit * 2; display: table;}
+  .songname p {display: table-cell; vertical-align: middle; text-align: center;}
+  .songname + p {font-size: $small-font-size; color: $secondary-text-color; margin: 0;}
   audio + p {
     margin-top: 0;
   }
