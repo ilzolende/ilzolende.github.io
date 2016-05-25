@@ -7,4 +7,4 @@ The files here are **not** CC-licensed at this time. Downloading for personal us
 
 - [Greensleeves](/assets/music/greensleeves.ogg)
 - [Scarborough Fair](/assets/music/scarborough-fair.ogg)
-- [The Devil Went Down To Harvard](/assets/music/harvard.ogg). Recitation of [\@deusvulture's lyrics](http://vulture.neocities.org/verse/devil.html).
+- [The Devil Went Down To Harvard](/assets/music/harvard.ogg). Recitation of [@deusvulture's lyrics](http://vulture.neocities.org/verse/devil.html).
