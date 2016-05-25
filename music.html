@@ -8,12 +8,16 @@ permalink: /music/
 {% for audio in site.music %}
   <section class="musicblock">
     <audio src="{{ audio.audio_path }}" preload="metadata" controls></audio>
-    <p>{{ audio.title }}{% if audio.composer %}, by {{ audio.composer }}{% endif %}.
+    <p>{{ audio.title }}</p>
+    <p>
       {% if audio.recording_type contains "song" %}
-      <a href="{{ audio.text_path }}">Lyrics</a>.
+      <a href="{{ audio.text_path }}">Lyrics</a>
       {% endif %}
       {% if audio.recording_type contains "poem" %}
-      <a href="{{ audio.text_path }}">Poem</a>.
+      <a href="{{ audio.text_path }}">Poem</a>
       {% endif %}
+        {% if audio.composer %}by {{ audio.composer }}.
+      {% endif %}
+    </p>
   </section>
 {% endfor %}
