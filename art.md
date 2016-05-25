@@ -3,7 +3,7 @@ layout: page
 title: Art
 permalink: /art/
 ---
-The files here are **not** CC-licensed at this time. Downloading for personal use is permitted. If you're interested in other uses, please contact me. Chances are good I'll approve, but I'd like to be kept in the loop.
+Almost all images on this page are Scalable Vector Graphics. To view them at a larger size, simply zoom in. The images that have been especially shrunken also can be clicked to display a full-size version.
 
 <figure>
 - [![vector portrait of me](/assets/art/9KB_fixed.svg "Ilzolende Kiefer")](/assets/art/9KB_fixed.svg)
