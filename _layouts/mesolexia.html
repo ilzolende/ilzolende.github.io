@@ -11,11 +11,9 @@
     <h1 class="project-name"><a href="/mesolexia/">Cure Mesolexia Now!</a></h1>
     <h2 class="project-tagline">Raising awareness since 2015</h2>
     <nav>
-        <a class="btn" href="/mesolexia/what/">What is Mesolexia?</a>
-        <a class="btn" href="/mesolexia/know/">Know the Signs</a>
-        <a class="btn" href="/mesolexia/about/">About Us</a>
-        <a class="btn" href="/mesolexia/shirts/">Shirts</a>
-        <a class="btn" href="/mesolexia/donate/">Donate</a>
+        {% for mess in site.mesolexia %}
+        <a class="btn" href="{{ mess.permalink }}">{{ mess.title }}</a>
+        {% endfor %}
         <!-- <a class="btn" href="#">Walk for a Cure</a> -->
         <a class="btn" href="/">Zeroed E-Kiln File</a>
     </nav>
@@ -23,7 +21,7 @@
     <section class="main-content">
         {{ content }}
       <footer class="site-footer"><span class="site-footer-owner"><a href="{{ site.url }}/mesolexia/">Cure Mesolexia Now!</a> is run by Ilzolende Kiefer.</span>
-      <span class="site-footer-credits">This page was generated using the <a href="https://github.com/pietromenna/jekyll-cayman-theme">Cayman theme</a> by <a href="http://github.com/jasonlong">Jason Long</a>.</span>
+      <span class="site-footer-credits">This page was generated using a modified version of the <a href="https://github.com/pietromenna/jekyll-cayman-theme">Cayman theme</a> by <a href="http://github.com/jasonlong">Jason Long</a>.</span>
     </footer>
   </section>
   </body>
