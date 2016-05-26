@@ -111,12 +111,12 @@ figure {
   display: inline-block;
   width: 47.5%;
   text-align: left;
+  margin-bottom: 0;
   // height: $spacing-unit * 4;
   audio {
     display: block;
     width: 90%;
   }
-  margin-bottom: $spacing-unit;
   .songname{
     height: $spacing-unit * 2;
     display: table;
