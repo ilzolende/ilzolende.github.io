@@ -22,12 +22,12 @@ $secondary-text-color:  #B1A4A5; //lower contrast, formerly #8f8787
 $tertiary-text-color: #696363; //lowest contrast
 $vibrant-text-color-1: #C491C4; //greyish pink
 $vibrant-text-color-2: #F76ACB; //bright pink
-$vibrant-text-color-3: #ED1153; //red
+$vibrant-text-color-3: #FC155B; //red, originally #ED1153
 $vibrant-text-color-4: #B866FA; //violet
 
 body>header>h1 {
   font-weight: 300;
-  text-shadow: 2px 2px 2px #000; 
+  text-shadow: 2px 2px 2px #000;
 }
 
 @import "base";
