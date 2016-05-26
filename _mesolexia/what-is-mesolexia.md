@@ -2,6 +2,7 @@
 layout: mesolexia-page
 title: What is Mesolexia?
 permalink: /mesolexia/what/
+ordering_priority: 1
 ---
 Mesolexia is a neurological disorder afflicting over 95% of Americans.
 

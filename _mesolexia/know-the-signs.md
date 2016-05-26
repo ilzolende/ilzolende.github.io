@@ -2,6 +2,7 @@
 layout: mesolexia-page
 title: Know the Signs
 permalink: /mesolexia/know/
+ordering_priority: 2
 ---
 Most mesolexics will be unable to read even by the age of 5.
 

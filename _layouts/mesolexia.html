@@ -10,8 +10,9 @@
     <header class="page-header">
     <h1 class="project-name"><a href="/mesolexia/">Cure Mesolexia Now!</a></h1>
     <h2 class="project-tagline">Raising awareness since 2015</h2>
+    {% assign sorted_mesolexia = site.mesolexia | sort: "ordering_priority" %}
     <nav>
-        {% for mess in site.mesolexia %}
+        {% for mess in sorted_mesolexia %}
         <a class="btn" href="{{ mess.permalink }}">{{ mess.title }}</a>
         {% endfor %}
         <!-- <a class="btn" href="#">Walk for a Cure</a> -->

@@ -2,6 +2,7 @@
 layout: mesolexia-page
 title: Shirts
 permalink: /mesolexia/shirts/
+ordering_priority: 20
 ---
 Although we have not yet made these designs available for sale, we may in the future produce shirts.
 
