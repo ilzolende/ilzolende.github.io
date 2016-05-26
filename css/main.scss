@@ -8,16 +8,14 @@ $body-width: 30em;
 $base-font-family: "DejaVu Serif", Georgia, serif;
 $alt-font-family: "DejaVu Sans", Verdana, sans-serif;
 $mono-font-family: "DejaVu Sans Mono", monospace;
-//$decorative-font-family: "Judson", "Crushed", "Round Style Middle", "Transuranium", cursive;
 
 body>header>h1 {
-  //font-style: italic;
   font-weight: 200;
 }
 
-$base-font-size:   100%;
+$base-font-size:   16px;
 $base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
+$small-font-size:  14px;
 $base-line-height: 1.5;
 $spacing-unit: $base-line-height * 1rem;
 
@@ -33,5 +31,3 @@ $vibrant-text-color-4: #B866FA; //violet
 
 @import "base";
 @import "layout";
-
-// body>header>h1::first-letter{font-family: "Round Style Basic";}
