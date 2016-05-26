@@ -4,6 +4,7 @@ title: Music & Poetry
 permalink: /recordings/
 ordering_priority: 5
 ---
+<div style="text-align: center;">
 {% for audio in site.music %}
   <section class="musicblock">
     <audio src="{{ audio.audio_path }}" preload="metadata" muted="true" controls>Your browser does not support HTML5 audio. Click <a href="{{ audio.audio_path }}">here</a> to listen.</audio>
@@ -20,3 +21,4 @@ ordering_priority: 5
     </p>
   </section>
 {% endfor %}
+</div>
