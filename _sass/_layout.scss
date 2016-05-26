@@ -50,15 +50,22 @@ body>header {
       }
     }
 }
+
+/**
+ * Site footer
+ */
 body>footer {
   border-top: solid $tertiary-text-color;
   font-size: $small-font-size;
   color: $secondary-text-color;
 }
 
+/**
+ * Blog post list
+ */
 ul.post-list {
-  margin-left: 1cr;
-  list-style-type: circle;
+  margin-left: 1.5ch;
+  list-style-type: square;
   
   .post-meta {
     font-size: $small-font-size;
@@ -69,6 +76,9 @@ ul.post-list {
   }
 }
 
+/**
+ * Photosets
+ */
 figure {
   border-top: dotted thin $tertiary-text-color;
   text-align: center;
@@ -105,6 +115,9 @@ figure {
   }
 }
 
+/**
+ * Music players
+ */
 .musicblock {
   // border-top: dotted thin $tertiary-text-color;
   // audio{margin-top: $spacing-unit;}
