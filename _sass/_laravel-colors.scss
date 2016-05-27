@@ -1,8 +1,7 @@
 /*
-#FC6B0A;
 #FC580C;
-#FFA927;
-#FFC48C;
+#3B3633;
+#FC6B0A;
 
 https://github.com/daylerees/colour-schemes/blob/master/atom/laravel/index.less
 */
@@ -10,9 +9,9 @@ https://github.com/daylerees/colour-schemes/blob/master/atom/laravel/index.less
 $text-color: #DEDEDE;
 $background-color: #2E2C2B;
 
-$secondary-text-color:  #615953;
-$dividing-line-color: #3B3633; //lowest contrast
-$link-color: #FC6B0A; //unclicked link
+$secondary-text-color:  #888;
+$dividing-line-color: #615953; //lowest contrast
+$link-color: #FFC48C; //unclicked link
 $link-visited-color: #FFA927; //clicked link
-$link-hover-color: #FFC48C; //hover link
+$link-hover-color: #fa6; //hover link
 $main-title-color: #FDCA49; //title
