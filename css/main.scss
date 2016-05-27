@@ -2,7 +2,7 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
-@import "laravel-mod-colors";
+@import "color-schemes/laravel-mod";
 
 $body-width: 30em;
 
