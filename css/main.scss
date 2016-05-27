@@ -2,6 +2,7 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
+@import "potpourri-colors";
 
 $body-width: 30em;
 
@@ -14,16 +15,6 @@ $base-font-weight: 400;
 $small-font-size:  14px;
 $base-line-height: 1.5;
 $spacing-unit: $base-line-height * 1rem;
-
-$text-color: #f8f8f2;
-$background-color: #2e2b2c;
-
-$secondary-text-color:  #B1A4A5; //lower contrast, formerly #8f8787
-$tertiary-text-color: #696363; //lowest contrast
-$vibrant-text-color-1: #C491C4; //greyish pink
-$vibrant-text-color-2: #F76ACB; //bright pink
-$vibrant-text-color-3: #FC155B; //red, originally #ED1153
-$vibrant-text-color-4: #B866FA; //violet
 
 body>header>h1 {
   font-weight: 300;
