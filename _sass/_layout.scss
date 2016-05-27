@@ -14,7 +14,7 @@ body {
  * Site header
  */
 body>header {
-    border-bottom: solid $tertiary-text-color;
+    border-bottom: solid $dividing-line-color;
     margin-bottom: $spacing-unit;
 
     h1 {
@@ -25,12 +25,12 @@ body>header {
       font-family: $alt-font-family;
 
       a, a:visited {
-          color: $vibrant-text-color-3;
+          color: $main-title-color;
           text-decoration: none;
       }
       a:hover{
         text-decoration: underline;
-        color: $vibrant-text-color-3;
+        color: $main-title-color;
       }
     }
 
@@ -68,7 +68,7 @@ body>header {
  * Site footer
  */
 body>footer {
-  border-top: solid $tertiary-text-color;
+  border-top: solid $dividing-line-color;
   font-size: $small-font-size;
   color: $secondary-text-color;
 }
@@ -93,7 +93,7 @@ ul.post-list {
  * Photosets
  */
 figure {
-  border-top: dotted thin $tertiary-text-color;
+  border-top: dotted thin $dividing-line-color;
   text-align: center;
   
   &.L10a140 img{
@@ -132,7 +132,7 @@ figure {
  * Music players
  */
 .musicblock {
-  // border-top: dotted thin $tertiary-text-color;
+  // border-top: dotted thin $dividing-line-color;
   // audio{margin-top: $spacing-unit;}
   display: inline-block;
   width: 47.5%;
