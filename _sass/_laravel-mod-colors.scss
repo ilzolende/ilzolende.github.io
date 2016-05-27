@@ -7,7 +7,7 @@ $text-color: #DEDEDE;
 $background-color: #2E2C2B;
 
 $secondary-text-color:  #888;
-$dividing-line-color: #ED1153; //lowest contrast
+$dividing-line-color: transparentize(#ED1153, 0.7); //lowest contrast
 $link-color: #C491C4; //unclicked link
 $link-visited-color: #f69; //clicked link
 $main-title-color: #Fa0; //title
