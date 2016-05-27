@@ -6,3 +6,7 @@ $dividing-line-color: #210; //lowest contrast
 $link-color: #FBD; //unclicked link
 $link-visited-color: #F7B; //clicked link
 $main-title-color: #FFF; //title
+
+body>header>h1 {
+  text-shadow: 2px 2px 2px $dividing-line-color;
+}
