@@ -17,12 +17,12 @@ $blue:      #268bd2;
 $cyan:      #2aa198;
 $green:     #859900;
 
-$text-color: $base1;
-$background-color: $base03;
+$text-color: $base00;
+$background-color: $base3;
 
-$secondary-text-color:  $base00;
-$dividing-line-color: $yellow; //lowest contrast
-$link-color: $green; //unclicked link
-$link-visited-color: $cyan; //clicked link
-$main-title-color: $yellow; //title
+$secondary-text-color:  $base1;
+$dividing-line-color: $base2; //lowest contrast
+$link-color: $cyan; //unclicked link
+$link-visited-color: $violet; //clicked link
 $link-hover-color: $blue; //hover link
+$main-title-color: $base0; //title
