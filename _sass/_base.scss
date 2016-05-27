@@ -132,7 +132,7 @@ pre,
 code {
     font-size: $small-font-size;
     font-family: $mono-font-family;
-    border: 1px solid $dividing-line-color;
+    border: 1px solid lighten($background-color, 15%);
     border-radius: 3px;
     background-color: lighten($background-color, 5%);
 }
