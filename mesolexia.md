@@ -1,6 +1,7 @@
 ---
 layout: mesolexia
 title: Cure Mesolexia Now!
+short_title: Mesolexia
 permalink: /mesolexia/
 ordering_priority: 11
 ---
