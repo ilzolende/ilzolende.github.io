@@ -14,3 +14,7 @@ body>header>h1 {
     text-decoration-style: wavy !important;
   }
 }
+
+figure img {
+  box-shadow: 0.125em 0.125em 0.25em $dividing-line-color;
+}
