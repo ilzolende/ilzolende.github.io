@@ -9,4 +9,8 @@ $main-title-color: #FFF; //title
 
 body>header>h1 {
   text-shadow: 2px 2px 2px $dividing-line-color;
+  a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy !important;
+  }
 }
