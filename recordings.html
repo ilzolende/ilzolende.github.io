@@ -12,7 +12,7 @@ ordering_priority: 5
   <section class="musicblock">
     <audio src="{{ audio.audio_path }}" preload="metadata" muted="true" controls>Your browser does not support HTML5 audio. Click <a href="{{ audio.audio_path }}">here</a> to listen.</audio>
     <div class="songname"><p>{{ audio.title }}</p></div>
-    <p class="songtext"><a href="{{ audio.text_path }}">Lyrics</a>{% if audio.composer %} by {{ audio.composer }}.{% endif %}</p>
+    <p class="songtext"><a href="{{ audio.text_path }}">Lyrics{% if audio.composer %} by {{ audio.composer }}.{% endif %}</a></p>
   </section>
 {% endif %}
 {% endfor %}
@@ -22,7 +22,7 @@ ordering_priority: 5
   <section class="musicblock">
     <audio src="{{ audio.audio_path }}" preload="metadata" muted="true" controls>Your browser does not support HTML5 audio. Click <a href="{{ audio.audio_path }}">here</a> to listen.</audio>
     <div class="songname"><p>{{ audio.title }}</p></div>
-    <p class="songtext"><a href="{{ audio.text_path }}">Poem</a>{% if audio.composer %} by {{ audio.composer }}.{% endif %}</p>
+    <p class="songtext"><a href="{{ audio.text_path }}">Poem{% if audio.composer %} by {{ audio.composer }}.{% endif %}</a></p>
   </section>
 {% endif %}
 {% endfor %}
