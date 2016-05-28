@@ -1,0 +1,29 @@
+---
+layout: default
+title: Music & Poetry
+short_title: Recordings
+permalink: /recordings/
+ordering_priority: 5
+---
+<article class="post">
+<h2>Songs</h2>
+{% for audio in site.recordings %}
+{% if audio.recording_type == "song" %}
+  <section class="musicblock">
+    <audio src="{{ audio.audio_path }}" preload="metadata" muted="true" controls>Your browser does not support HTML5 audio. Click <a href="{{ audio.audio_path }}">here</a> to listen.</audio>
+    <div class="songname"><p>{{ audio.title }}</p></div>
+    <p class="songtext"><a href="{{ audio.text_path }}">Lyrics</a>{% if audio.composer %} by {{ audio.composer }}.{% endif %}</p>
+  </section>
+{% endif %}
+{% endfor %}
+<h2>Poems</h2>
+{% for audio in site.recordings %}
+{% if audio.recording_type == "poem" %}
+  <section class="musicblock">
+    <audio src="{{ audio.audio_path }}" preload="metadata" muted="true" controls>Your browser does not support HTML5 audio. Click <a href="{{ audio.audio_path }}">here</a> to listen.</audio>
+    <div class="songname"><p>{{ audio.title }}</p></div>
+    <p class="songtext"><a href="{{ audio.text_path }}">Poem</a>{% if audio.composer %} by {{ audio.composer }}.{% endif %}</p>
+  </section>
+{% endif %}
+{% endfor %}
+</article>
