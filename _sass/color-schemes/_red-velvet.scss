@@ -7,13 +7,16 @@ $link-color: #FBD; //unclicked link
 $link-visited-color: #F7B; //clicked link
 $main-title-color: #FFF; //title
 
+@mixin shadowy {text-shadow: 2px 2px 2px $dividing-line-color;}
+
 body>header>h1 {
-  text-shadow: 2px 2px 2px $dividing-line-color;
   a:hover {
     text-decoration: underline;
     text-decoration-style: wavy !important;
   }
 }
+
+h1, h2, h3 {@include shadowy;}
 
 figure img {
   box-shadow: 0.125em 0.125em 0.25em $dividing-line-color;
