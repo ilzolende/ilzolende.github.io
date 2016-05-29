@@ -1,29 +1,21 @@
-.musicblock {
+.musicblock, .musicblockwide {
   // border-top: dotted thin $dividing-line-color;
   // audio{margin-top: $spacing-unit;}
-  display: inline-block;
-  width: 47.5%;
-  text-align: left;
+  display: block;
+  text-align: center;
   margin-bottom: 0;
   // height: $spacing-unit * 4;
   audio {
     display: block;
-    width: 90%;
+    width: 100%;
   }
-  .songname{
-    height: $spacing-unit * 2;
-    display: table;
-  }
+  .songname{}
   .songname p {
-    display: table-cell;
     margin: 0;
-    vertical-align: middle;
   }
   .songtext {
     font-size: $small-font-size;
     color: $secondary-text-color;
-    height: $spacing-unit * 2;
-    display: table-cell;
-    margin-top: 0;
+    margin: 0;
   }
 }
