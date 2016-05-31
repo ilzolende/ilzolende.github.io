@@ -9,7 +9,7 @@ ordering_priority: 5
 {% for audio in site.recordings %}
 {% if audio.recording_type == "song" %}
   <section class="musicblockwide">
-    <audio src="{{ audio.audio_path }}" preload="metadata" muted="true" controls>Your browser does not support HTML5 audio. Click <a href="{{ audio.audio_path }}">here</a> to listen.</audio>
+    <audio src="{{ audio.audio_path }}" preload="metadata" controls>Your browser does not support HTML5 audio. Click <a href="{{ audio.audio_path }}">here</a> to listen.</audio>
     {% if audio.composer %}
       <div class="songname"><p>{{ audio.title }}</p></div>
       <p class="songtext"><a href="{{ audio.text_path }}">Lyrics by {{ audio.composer }}.</a></p>
