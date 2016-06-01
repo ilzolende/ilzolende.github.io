@@ -60,8 +60,14 @@ body>header {
     font-size: 2rem;
     border-radius: 0.25em;
     text-align: center;
-    margin-bottom: $spacing-unit;
+    margin-bottom: 0;
     // font-family: $alt-font-family;
+  }
+  .post-meta {
+    text-align: center;
+    margin-top: 0;
+    font-style: italic;
+    color: $secondary-text-color;
   }
 }
 
