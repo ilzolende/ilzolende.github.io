@@ -27,7 +27,7 @@ Flag derived from abstract sketches.
 Flag derived from [File:Sylvicola wing veins.svg](https://en.wikipedia.org/wiki/File:Sylvicola_wing_veins.svg), a file made by Giancarlo Dessì. Unlike other items on this page, it is [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en) licensed. Inspired by a request from [@nniihilsupernum](http://nniihilsupernum.tumblr.com).
 </figcaption>
 </figure>
-<figure class="L10a140">
+<figure class="L10a140 photoset">
 ![L10a140](/assets/art/L10a140_1.gif)
 ![L10a140](/assets/art/L10a140_2.gif)
 ![L10a140](/assets/art/L10a140_3.gif)
