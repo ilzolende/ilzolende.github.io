@@ -22,7 +22,8 @@ $background-color: $base03;
 
 $secondary-text-color:  $base01;
 $dividing-line-color: $base02; //lowest contrast
-$link-color: $red; //unclicked link
-$link-visited-color: $orange; //clicked link
-$link-hover-color: $blue; //hover link
+$link-color: $blue; //unclicked link
+$link-visited-color: $violet; //clicked link
 $main-title-color: $yellow; //title
+
+h2, h3 {color: $base1;}

@@ -21,7 +21,7 @@ body>header {
       font-size: 2 * $spacing-unit;
       line-height: 1;
       margin-top: $spacing-unit;
-      margin-bottom: $spacing-unit;
+      margin-bottom: $spacing-unit/2;
       font-family: $alt-font-family;
 
       a, a:visited {
@@ -39,6 +39,7 @@ body>header {
         list-style: inside none none;
         padding-left: 0;
         margin-left: 0;
+        margin-top: $spacing-unit / 2;
         margin-bottom: $spacing-unit / 2;
         li {
           display: inline-block;

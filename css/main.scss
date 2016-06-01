@@ -7,7 +7,7 @@
 $body-width: 30em;
 
 $base-font-family: "DejaVuSerifBook", Georgia, serif;
-$alt-font-family: "Grand Hotel", "DejaVu Sans", Verdana, sans-serif;
+$alt-font-family: "Fira Sans", "Grand Hotel", Verdana, sans-serif;
 $mono-font-family: "DejaVu Sans Mono", monospace;
 
 $base-font-size:   16px;
@@ -16,13 +16,13 @@ $small-font-size:  14px;
 $base-line-height: 1.5;
 $spacing-unit: $base-line-height * 1rem;
 
-body>header>h1 {
-  font-weight: 400;
-}
-
 @import "base";
 @import "layout";
 @import "layout-photosets";
 @import "layout-audio-onecolumn";
 @import "layout-audio-twocolumn";
 @import "syntax-highlighting";
+
+body>header>h1 {
+  font-weight: 200;
+}

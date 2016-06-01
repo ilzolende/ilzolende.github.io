@@ -9,12 +9,12 @@ $main-title-color: #FFF; //title
 
 @mixin shadowy {text-shadow: 2px 2px 2px $dividing-line-color;}
 
-body>header>h1 {
+/*body>header>h1 {
   a:hover {
     text-decoration: underline;
     text-decoration-style: wavy !important;
   }
-}
+}*/
 
 h1, h2, h3 {@include shadowy;}
 
