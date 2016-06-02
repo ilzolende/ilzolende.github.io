@@ -1,35 +1,26 @@
 figure.photoset {
   border-top: solid thin $dividing-line-color;
   text-align: center;
+  padding-top: $spacing-unit;
+  
+  img {
+    max-width: 15em;
+    max-height: 15em;
+    margin: 0.25rem;
+    border: solid 0.25rem;
+    display: inline-block;
+  }
   
   &.L10a140 img{
-    border-color: $secondary-text-color;
     &:first-child{
       border-width: (3rem / 16);
     }
   }
   
-  p>img:only-child {
+  > img:only-of-type {
+    max-width: unset;
+    max-height: unset;
     margin-left: auto;
     margin-right: auto;
-  }
-  img {
-    border: solid 0.25rem;
-  }
-  
-  ul {
-    list-style: inside none none;
-    padding-left: 0;
-    margin-left: 0;
-    li {
-      margin: 0;
-      display: inline-block;
-      
-      img {
-        max-width: 15em;
-        max-height: 15em;
-        margin: 0.25rem;
-      }
-    }
   }
 }

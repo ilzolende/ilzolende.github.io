@@ -20,5 +20,6 @@ kramdown:
   parse_block_html: true
 collections:
   recordings:
+  art:
   mesolexia:
     output: true
