@@ -7,16 +7,20 @@ $link-color: #FBD; //unclicked link
 $link-visited-color: #F7B; //clicked link
 $main-title-color: #FFF; //title
 
-@mixin shadowy {text-shadow: 2px 2px 2px $dividing-line-color;}
+@mixin shadowy {text-shadow: 1.5pt 1.5pt 1.5pt $dividing-line-color;}
 
-/*body>header>h1 {
+body>header>h1 {
   a:hover {
-    text-decoration: underline;
-    text-decoration-style: wavy !important;
+    text-decoration: none !important;
+    //font-weight: bolder;
+    position: relative;
+    top: -1.5pt;
+    left: -1.5pt;
+    text-shadow: 4.5pt 4.5pt 3pt $dividing-line-color;
   }
-}*/
+}
 
-h1, h2, h3 {@include shadowy;}
+h1>a, h2, h3 {@include shadowy;}
 
 figure img {
   box-shadow: 0.125em 0.125em 0.25em $dividing-line-color;
