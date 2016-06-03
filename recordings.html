@@ -6,7 +6,7 @@ ordering_priority: 5
 ---
 <article class="post">
 <h2>Songs</h2>
-{% for audio in site.recordings %}
+{% for audio in site.recordings | where "recording_type", "song" %}
 {% if audio.recording_type == "song" %}
   <section class="musicblockwide">
     <audio src="{{ audio.audio_path }}" preload="metadata" controls>Your browser does not support HTML5 audio. Click <a href="{{ audio.audio_path }}">here</a> to listen.</audio>
