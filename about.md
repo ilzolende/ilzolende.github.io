@@ -5,7 +5,7 @@ permalink: /about/
 ordering_priority: 10
 ---
 <article class="post">
-<img src="/assets/images/knot-with-colors.svg" style="float: right; margin-left: 1em; margin-bottom: 1em;" />
+<img src="/assets/images/knot-with-colors.svg" alt="L10a140 link encircling a circuitboard-like pattern" style="float: right; margin-left: 1em; margin-bottom: 1em;" />
 
 ## About me:
 
