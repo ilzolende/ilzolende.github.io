@@ -7,8 +7,15 @@ figure.photoset {
     max-width: 15em;
     max-height: 15em;
     margin: 0.25rem;
-    border: solid 0.25rem;
+    border: inset 0.25rem;
+    border-color: transparentize($background-color, 0.25);
     display: inline-block;
+    &:hover {
+      border-style: outset;
+    }
+    &:active {
+      border-style: ridge;
+    }
   }
   
   &.L10a140 img{
