@@ -3,6 +3,8 @@ figure.photoset {
   text-align: center;
   padding-top: $spacing-unit;
   
+  
+  
   img {
     max-width: 15em;
     max-height: 15em;
@@ -22,7 +24,7 @@ figure.photoset {
     border-width: (3rem / 16);
   }
   
-  > img:only-of-type {
+  > a:only-of-type img {
     max-width: unset;
     max-height: unset;
     margin-left: auto;
