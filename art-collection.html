@@ -9,7 +9,7 @@ ordering_priority: 2
 {% for figure in sorted_figures reversed %}
 <figure class="photoset {{ figure.short_name }}">
   {% for image in figure.images %}
-  <img src="{{ image.image_path }}" alt="{% if image.alt_text %}{{ image.alt_text }}{% else %}{{ figure.short_name }}{% endif %}" {% if image.hover_text %} title="{{ image.hover_text }}" {% endif %} />
+  <a href="{{ image.image_path }}"><img src="{{ image.image_path }}" alt="{% if image.alt_text %}{{ image.alt_text }}{% else %}{{ figure.short_name }}{% endif %}" {% if image.hover_text %} title="{{ image.hover_text }}" {% endif %} /></a>
   {% endfor %}
   {% if figure.content %}
   <figcaption>{{ figure.content }}</figcaption>
