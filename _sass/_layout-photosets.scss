@@ -18,10 +18,8 @@ figure.photoset {
     }
   }
   
-  &.L10a140 img{
-    &:first-child{
-      border-width: (3rem / 16);
-    }
+  &.L10a140 a:first-child img{
+    border-width: (3rem / 16);
   }
   
   > img:only-of-type {
