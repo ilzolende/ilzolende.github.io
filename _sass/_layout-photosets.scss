@@ -3,15 +3,10 @@ figure.photoset {
   text-align: center;
   padding-top: $spacing-unit;
   
-  
-  
-  img {
-    max-width: 15em;
-    max-height: 15em;
-    margin: 0.25rem;
-    border: inset 0.25rem;
-    border-color: transparentize($background-color, 0.25);
+  > a {
     display: inline-block;
+    margin: 3pt;
+    border: transparentize($background-color, 0.25) inset 3pt;
     &:hover {
       border-style: outset;
     }
@@ -20,8 +15,18 @@ figure.photoset {
     }
   }
   
-  &.L10a140 a:first-child img{
-    border-width: (3rem / 16);
+  img {
+    max-width: 15em;
+    max-height: 15em;
+    display: inline-block;
+    //border: 0.75pt solid $link-color;
+  }
+  a:visited img {
+    //border: 0.75pt solid $link-visited-color;
+  }
+  
+  &.L10a140 a:first-child {
+    border-width: 2.25pt;
   }
   
   > a:only-of-type img {
