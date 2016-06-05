@@ -1,6 +1,6 @@
 ---
 art_type: geometric
-short_name: eightfold
+short_name: hexagonal
 images:
   - image_path: /assets/art/hex_pattern.gif
     alt_text: a hexagonal tiling pattern
