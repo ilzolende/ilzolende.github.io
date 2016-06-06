@@ -7,21 +7,4 @@ $link-color: #00f; //unclicked link
 $link-visited-color: #939; //clicked link
 $main-title-color: #333; //title
 
-a:hover, a:visited:hover {color: #e00;}
-
-figure.photoset p>img, li>img, figure.photoset.L10a140 p>img {border-color: $background-color;}
-figure.photoset img {
-  border-style: inset !important;
-}
-figure.photoset a {
-  
-  img {border-color: transparentize(#06f, 0.75);}
-  
-  &:visited img {
-    border-color: transparentize(#90f, 0.75);
-  }
-  &:hover img {
-    border-color: transparentize(#f00, 0.75);
-    border-style: outset !important;
-  }
-}
+a:hover, a:visited:hover {color: #e00;} //special rule, most themes won't need this
