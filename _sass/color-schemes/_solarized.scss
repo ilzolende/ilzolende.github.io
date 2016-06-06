@@ -17,14 +17,23 @@ $blue:      #268bd2;
 $cyan:      #2aa198;
 $green:     #859900;
 
-$text-color: $base0;
+$text-color: $base1;
 $background-color: $base03;
 $is-dark-background: true;
 
 $secondary-text-color:  $base01;
 $dividing-line-color: $base02; //lowest contrast
-$link-color: $blue; //unclicked link
-$link-visited-color: $violet; //clicked link
-$main-title-color: $yellow; //title
+$link-color: $violet; //unclicked link
+$link-visited-color: $magenta; //clicked link
+$main-title-color: $cyan; //title
 
-h2, h3 {color: $base1;}
+pre, code {
+    @if $is-dark-background {
+      border-color: $base01 !important;
+      background-color: $base02 !important;
+    }
+    @else {
+        border-color: $base1 !important;
+        background-color: $base2 !important;
+    }
+}
