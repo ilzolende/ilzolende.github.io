@@ -17,17 +17,17 @@ $blue:      #268bd2;
 $cyan:      #2aa198;
 $green:     #859900;
 
-$text-color: $base1;
-$background-color: $base03;
-$is-dark-background: true;
+$text-color: $base01;
+$background-color: $base3;
+$is-dark-background: false;
 
 $secondary-text-color:  $base1;
-$dividing-line-color: $base02; //lowest contrast
+$dividing-line-color: $base2; //lowest contrast
 $link-color: $violet; //unclicked link
 $link-visited-color: $magenta; //clicked link
 $main-title-color: $cyan; //title
 
 pre, code {
-  border-color: $base02 !important;
-  background-color: transparentize($base02, 0.5) !important;
+  border-color: $base2 !important;
+  background-color: transparentize($base2, 0.5) !important;
 }
