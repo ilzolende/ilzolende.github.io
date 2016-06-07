@@ -1,0 +1,115 @@
+---
+permalink: /assets/site-icon.svg
+---
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="/css/icon.css" type="text/css"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+]>
+<svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="108px" height="108px" viewBox="0 0 108 108" style="overflow:visible;enable-background:new 0 0 108 108;"
+	 xml:space="preserve">
+ <!-- <style type="text/css">
+ <![CDATA[
+   .main1 {
+     fill: none;
+     stroke: #839496;
+     stroke-width: 2;
+     stroke-miterlimit: 10;
+   }
+   .secondary1 {
+     fill: none;
+     stroke: #d33682;
+     stroke-width: 2;
+     stroke-linecap: round;
+     stroke-miterlimit: 10;
+   }
+   .main2 {
+     fill: none;
+     stroke: #839496;
+     stroke-width: 2;
+     stroke-linecap: round;
+     stroke-miterlimit: 10;
+   }
+   .secondary2 {
+     fill: none;
+     stroke: #d33682;
+     stroke-width: 2;
+     stroke-miterlimit: 10;
+   }
+   .tertiary1 {
+     fill: none;
+     stroke: #2aa198;
+     stroke-width: 2;
+     stroke-miterlimit: 10;
+   }
+   .back {
+     fill: #073642;
+   }
+   .tertiary2 {
+     fill: #2aa198;
+   }
+ ]]>
+ </style> -->
+<defs>
+</defs>
+<path class="back" d="M102,0H6C2.687,0,0,2.687,0,6v96c0,3.313,2.687,6,6,6h96c3.313,0,6-2.687,6-6V6C108,2.687,105.313,0,102,0z
+	 M12,18c-3.313,0-6-2.687-6-6s2.687-6,6-6s6,2.687,6,6S15.313,18,12,18z"/>
+<polyline class="main1" points="69,32 69,69 32,69 "/>
+<line class="main1" x1="86" y1="49" x2="69" y2="49"/>
+<circle class="secondary2" cx="89" cy="49" r="3"/>
+<circle class="main1" cx="69" cy="29" r="3"/>
+<circle class="main1" cx="49" cy="49" r="3"/>
+<path class="secondary1" d="M92.002,82.678C94.363,83.804,96,86.215,96,89c0,3.859-3.141,7-7,7c-2.785,0-5.196-1.637-6.322-3.998"/>
+<path class="secondary1" d="M82.676,85.998c0.693-1.453,1.871-2.631,3.322-3.322"/>
+<circle class="main1" cx="89" cy="89" r="3"/>
+<circle class="main1" cx="49" cy="89" r="3"/>
+<circle class="main1" cx="29" cy="69" r="3"/>
+<line class="main1" x1="38" y1="38" x2="47" y2="47"/>
+<line class="main1" x1="57.999" y1="18" x2="66.999" y2="27"/>
+<line class="main1" x1="18" y1="57.999" x2="27" y2="66.999"/>
+<circle class="tertiary2" cx="79" cy="19" r="4"/>
+<circle class="tertiary2" cx="79" cy="39" r="4"/>
+<circle class="tertiary2" cx="59" cy="59" r="4"/>
+<circle class="tertiary2" cx="59" cy="39" r="4"/>
+<circle class="tertiary2" cx="39" cy="59" r="4"/>
+<circle class="tertiary2" cx="19" cy="78.999" r="4"/>
+<circle class="tertiary2" cx="39" cy="78.999" r="4"/>
+<circle class="tertiary2" cx="59" cy="78.999" r="4"/>
+<circle class="tertiary2" cx="79" cy="59" r="4"/>
+<circle class="tertiary2" cx="79" cy="78.999" r="4"/>
+<circle class="tertiary2" cx="99" cy="78.999" r="4"/>
+<circle class="tertiary2" cx="79" cy="99" r="4"/>
+<line class="tertiary1" x1="78.999" y1="19" x2="78.999" y2="39"/>
+<polyline class="tertiary1" points="99,79.374 78.999,59 78.999,78.999 59,78.999 78.999,99 "/>
+<line class="tertiary1" x1="19" y1="78.999" x2="39" y2="78.999"/>
+<polyline class="tertiary1" points="39,59 59,59 59,39 "/>
+<line class="main1" x1="89" y1="78" x2="89" y2="86"/>
+<line class="main1" x1="78" y1="89" x2="86" y2="89"/>
+<path class="secondary1" d="M82.676,45.999C83.801,43.637,86.213,42,89,42c3.859,0,7,3.14,7,7c0,3.859-3.141,7-7,7
+	c-2.785,0-5.196-1.635-6.322-3.996"/>
+<circle class="main1" cx="89" cy="49" r="3"/>
+<path class="secondary1" d="M52,82.676c2.363,1.125,4,3.536,4,6.324c0,3.859-3.141,7-7,7s-7-3.141-7-7c0-2.785,1.635-5.197,3.996-6.322"/>
+<path class="secondary1" d="M46.653,42.409c2.466-0.875,5.329-0.327,7.3,1.644c2.728,2.73,2.728,7.172,0,9.9
+	c-2.729,2.728-7.171,2.728-9.9,0c-1.969-1.97-2.519-4.831-1.645-7.297"/>
+<line class="main1" x1="49" y1="69" x2="49" y2="86"/>
+<path class="secondary1" d="M65.994,35.323c-0.703-0.333-1.361-0.79-1.942-1.37c-1.969-1.97-2.519-4.83-1.644-7.297"/>
+<path class="secondary1" d="M66.653,22.409c2.466-0.874,5.329-0.327,7.3,1.644c2.729,2.729,2.729,7.171,0,9.9
+	c-0.584,0.582-1.244,1.041-1.95,1.375"/>
+<path class="secondary1" d="M35.328,72.003c-0.334,0.706-0.792,1.366-1.375,1.95c-2.73,2.729-7.172,2.729-9.9,0
+	c-1.969-1.969-2.519-4.83-1.645-7.297"/>
+<path class="secondary1" d="M26.652,62.41c2.467-0.875,5.33-0.328,7.301,1.642c0.537,0.538,0.967,1.142,1.293,1.784"/>
+<polyline class="secondary2" points="10,51 27,51 27,35 32,35 "/>
+<polyline class="tertiary1" points="30,43 35,43 35,27 40,27 "/>
+<polyline class="secondary2" points="38,35 43,35 43,18 "/>
+<polyline class="secondary2" points="5,46 5,29 21,29 21,24 "/>
+<polyline class="tertiary1" points="13,26 13,21 29,21 29,16 "/>
+<polyline class="tertiary1" points="13,32 13,43 24,43 "/>
+<polyline class="secondary2" points="21,18 21,13 38,13 "/>
+<polyline class="tertiary1" points="29,10 29,5 51,5 51,27 46,27 "/>
+<line class="main2" x1="17" y1="39" x2="47" y2="9"/>
+<path class="main1" d="M10.533,45.467l-2,2c-2.172,2.171-3.514,5.171-3.514,8.484L5,56v34.999c0,6.627,5.373,12,12,12h73.999
+	c6.627,0,12-5.373,12-12V17c0-6.627-5.373-12-12-12H54"/>
+</svg>

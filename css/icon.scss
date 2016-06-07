@@ -1,0 +1,41 @@
+---
+---
+@import "color-schemes/solarized";
+.main1 {
+  fill: none;
+  stroke: $text-color;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+.secondary1 {
+  fill: none;
+  stroke: $link-color;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+}
+.main2 {
+  fill: none;
+  stroke: $text-color;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+}
+.secondary2 {
+  fill: none;
+  stroke: $link-color;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+.tertiary1 {
+  fill: none;
+  stroke: $link-visited-color;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+}
+.back {
+  fill: $dividing-line-color;
+}
+.tertiary2 {
+  fill: $link-visited-color;
+}
