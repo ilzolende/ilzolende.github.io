@@ -11,48 +11,6 @@ permalink: /assets/site-icon.svg
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
 	 x="0px" y="0px" width="108px" height="108px" viewBox="0 0 108 108" style="overflow:visible;enable-background:new 0 0 108 108;"
 	 xml:space="preserve">
- <!-- <style type="text/css">
- <![CDATA[
-   .main1 {
-     fill: none;
-     stroke: #839496;
-     stroke-width: 2;
-     stroke-miterlimit: 10;
-   }
-   .secondary1 {
-     fill: none;
-     stroke: #d33682;
-     stroke-width: 2;
-     stroke-linecap: round;
-     stroke-miterlimit: 10;
-   }
-   .main2 {
-     fill: none;
-     stroke: #839496;
-     stroke-width: 2;
-     stroke-linecap: round;
-     stroke-miterlimit: 10;
-   }
-   .secondary2 {
-     fill: none;
-     stroke: #d33682;
-     stroke-width: 2;
-     stroke-miterlimit: 10;
-   }
-   .tertiary1 {
-     fill: none;
-     stroke: #2aa198;
-     stroke-width: 2;
-     stroke-miterlimit: 10;
-   }
-   .back {
-     fill: #073642;
-   }
-   .tertiary2 {
-     fill: #2aa198;
-   }
- ]]>
- </style> -->
 <defs>
 </defs>
 <path class="back" d="M102,0H6C2.687,0,0,2.687,0,6v96c0,3.313,2.687,6,6,6h96c3.313,0,6-2.687,6-6V6C108,2.687,105.313,0,102,0z
