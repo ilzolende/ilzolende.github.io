@@ -23,9 +23,11 @@ $is-dark-background: false;
 
 $secondary-text-color:  $base1;
 $dividing-line-color: $base2; //lowest contrast
-$link-color: $cyan; //unclicked link
-$link-visited-color: $blue; //clicked link
-$main-title-color: $violet; //title
+$link-color: $orange; //unclicked link
+$link-visited-color: $magenta; //clicked link
+$main-title-color: $yellow; //title
+
+html {background-image: url('/assets/images/Patiala_Phulkari_light.svg');}
 
 pre, code {
   border-color: $base2 !important;
