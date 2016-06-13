@@ -1,41 +1,47 @@
 ---
 ---
 @import "color-schemes/solarized";
+$icon-background-color: rgba(0, 0, 0, 0);
+$icon-primary-color: $text-color;
+$icon-secondary-color: $main-title-color;
+$icon-tertiary-color: $link-visited-color;
+
+
 .main1 {
   fill: none;
-  stroke: $text-color;
+  stroke: $icon-primary-color;
   stroke-width: 2;
   stroke-miterlimit: 10;
 }
 .secondary1 {
   fill: none;
-  stroke: $main-title-color;
+  stroke: $icon-secondary-color;
   stroke-width: 2;
   stroke-linecap: round;
   stroke-miterlimit: 10;
 }
 .main2 {
   fill: none;
-  stroke: $text-color;
+  stroke: $icon-primary-color;
   stroke-width: 2;
   stroke-linecap: round;
   stroke-miterlimit: 10;
 }
 .secondary2 {
   fill: none;
-  stroke: $main-title-color;
+  stroke: $icon-secondary-color;
   stroke-width: 2;
   stroke-miterlimit: 10;
 }
 .tertiary1 {
   fill: none;
-  stroke: $link-visited-color;
+  stroke: $icon-tertiary-color;
   stroke-width: 2;
   stroke-miterlimit: 10;
 }
 .back {
-  fill: $dividing-line-color;
+  fill: $icon-background-color;
 }
 .tertiary2 {
-  fill: $link-visited-color;
+  fill: $icon-tertiary-color;
 }
