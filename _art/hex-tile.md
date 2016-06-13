@@ -1,5 +1,5 @@
 ---
-art_type: geometric
+art_type: tiling_pattern
 short_name: hexagonal
 images:
   - image_path: /assets/art/hex_pattern.gif

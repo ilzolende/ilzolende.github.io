@@ -1,5 +1,5 @@
 ---
-art_type: geometric
+art_type: tiling_pattern
 short_name: phulkari
 images:
   - image_path: /assets/art/Patiala_Phulkari.svg
