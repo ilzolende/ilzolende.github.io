@@ -6,7 +6,7 @@ figure.photoset {
   > a {
     display: inline-block;
     margin: 3pt;
-    border: transparentize($background-color, 0.25) inset 3pt;
+    border: $background-color inset 3pt;
     &:hover {
       border-style: outset;
     }
