@@ -7,12 +7,25 @@ ordering_priority: 2
 <p>Almost all images on this page are Scalable Vector Graphics. To view them at a larger size, simply zoom in. The images that have been especially shrunken also can be clicked to display a full-size version.</p>
 {% assign sorted_figures = site.art | sort: "coolness" %}
 {% for figure in sorted_figures reversed %}
-<figure class="photoset {{ figure.short_name }}" id="{{ figure.short_name }}">
-  {% for image in figure.images %}
-  <a href="{{ image.image_path }}"><img src="{{ image.image_path }}" alt="{% if image.alt_text %}{{ image.alt_text }}{% else %}{{ figure.short_name }}{% endif %}" {% if image.hover_text %} title="{{ image.hover_text }}" {% endif %} /></a>
-  {% endfor %}
-  {% if figure.content %}
-  <figcaption>{{ figure.content }}</figcaption>
+  {% unless figure.art_type == "tiling_pattern" %}
+    <figure class="photoset {{ figure.short_name }}" id="{{ figure.short_name }}">
+    {% for image in figure.images %}
+    <a href="{{ image.image_path }}"><img src="{{ image.image_path }}" alt="{% if image.alt_text %}{{ image.alt_text }}{% else %}{{ figure.short_name }}{% endif %}" {% if image.hover_text %} title="{{ image.hover_text }}" {% endif %} /></a>
+    {% endfor %}
+    {% if figure.content %}
+    <figcaption>{{ figure.content }}</figcaption>
+    {% endif %}
+    </figure>
+  {% endunless %}
+  {% if figure.art_type == "tiling_pattern" %}
+    <figure class="photoset {{ figure.short_name }}" id="{{ figure.short_name }}">
+    {% for image in figure.images %}
+      <a class="patternblock" style="background-image: url('{{ image.image_path }}');" href="{{ image.image_path }}" {% if image.hover_text %}title="{{ image.hover_text }}"{% elsif image.alt_text %}title="{{ image.alt_text }}"{% endif %} >
+      </a>
+    {% endfor %}
+    {% if figure.content %}
+    <figcaption>{{ figure.content }}</figcaption>
+    {% endif %}
+    </figure>
   {% endif %}
-</figure>
 {% endfor %}
