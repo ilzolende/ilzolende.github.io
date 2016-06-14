@@ -1,10 +1,10 @@
 ---
 ---
-@import "color-schemes/solarized";
+@import "color-schemes/solarized-light";
 $icon-background-color: rgba(0, 0, 0, 0);
-$icon-primary-color: $text-color;
-$icon-secondary-color: $main-title-color;
-$icon-tertiary-color: $link-visited-color;
+$icon-primary-color: $green;
+$icon-secondary-color: $magenta;
+$icon-tertiary-color: $cyan;
 
 
 .main1 {
