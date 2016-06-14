@@ -32,6 +32,6 @@ body{
   box-shadow: 0 0 6pt 4pt $base2;
 }
 pre, code {
-  border-color: $base2 !important;
-  background-color: transparentize($base2, 0.5) !important;
+  border-color: darken($base2, 15%) !important;
+  background-color: $base2 !important;
 }
