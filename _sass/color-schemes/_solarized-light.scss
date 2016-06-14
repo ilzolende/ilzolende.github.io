@@ -28,7 +28,9 @@ $link-visited-color: $magenta; //clicked link
 $main-title-color: $yellow; //title
 
 html {background-image: url('/assets/images/Patiala_Phulkari_light.svg');}
-
+body{
+  box-shadow: 0 0 6pt 4pt $base2;
+}
 pre, code {
   border-color: $base2 !important;
   background-color: transparentize($base2, 0.5) !important;
