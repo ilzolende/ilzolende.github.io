@@ -13,12 +13,12 @@
     {% assign sorted_mesolexia = site.mesolexia | sort: "ordering_priority" %}
     <nav>
         {% for mess in sorted_mesolexia %}
-        <a class="btn" href="{{ mess.permalink }}">{{ mess.title }}</a>
+        <a class="btn" href="{{ mess.permalink }}#main">{{ mess.title }}</a>
         {% endfor %}
         <!-- <a class="btn" href="#">Walk for a Cure</a> -->
     </nav>
     </header>
-    <section class="main-content">
+    <section class="main-content" id="main">
         {{ content }}
       <footer class="site-footer"><span class="site-footer-owner"><a href="{{ site.url }}/mesolexia/">Cure Mesolexia Now!</a> is run by <a href="/">Ilzolende Kiefer</a>.</span>
       <span class="site-footer-credits">This page was generated using a modified version of the <a href="https://github.com/pietromenna/jekyll-cayman-theme">Cayman theme</a> by <a href="http://github.com/jasonlong">Jason Long</a>.</span>
