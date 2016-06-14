@@ -22,7 +22,7 @@ $background-color: $base3;
 $is-dark-background: false;
 
 $secondary-text-color:  $base1;
-$dividing-line-color: $base2; //lowest contrast
+$dividing-line-color: darken($base2, 5%); //lowest contrast
 $link-color: $orange; //unclicked link
 $link-visited-color: $magenta; //clicked link
 $main-title-color: $yellow; //title
@@ -35,3 +35,5 @@ pre, code {
   border-color: darken($base2, 15%) !important;
   background-color: $base2 !important;
 }
+*::-moz-selection{background-color: $base2;}
+*::selection{background-color: $base2;}
