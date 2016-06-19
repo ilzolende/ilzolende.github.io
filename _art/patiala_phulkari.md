@@ -7,7 +7,7 @@ images:
     min_height: 306px
   - image_path: /assets/art/lostcity_phulkari.svg
     alt-text: 3-color diamond-ish tiling pattern
-    min_height: 180px
+    min_height: 270px
   - image_path: /assets/art/phulkari3.svg
     alt-text: 5-color isometric-ish tiling pattern
     min_height: 252px
