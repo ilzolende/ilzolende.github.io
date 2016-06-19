@@ -20,7 +20,7 @@ ordering_priority: 2
   {% if figure.art_type == "tiling_pattern" %}
     <figure class="photoset {{ figure.short_name }}" id="{{ figure.short_name }}">
     {% for image in figure.images %}
-      <a class="patternblock" style="background-image: url('{{ image.image_path }}');" href="{{ image.image_path }}" {% if image.hover_text %}title="{{ image.hover_text }}"{% elsif image.alt_text %}title="{{ image.alt_text }}"{% endif %} >
+      <a class="patternblock" style="background-image: url('{{ image.image_path }}'); {% if image.min_height %}min-height: {{ image.min_height }};{% endif %}" href="{{ image.image_path }}" {% if image.hover_text %}title="{{ image.hover_text }}"{% elsif image.alt_text %}title="{{ image.alt_text }}"{% endif %} >
       </a>
     {% endfor %}
     {% if figure.content %}

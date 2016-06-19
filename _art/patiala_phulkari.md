@@ -4,10 +4,13 @@ short_name: phulkari
 images:
   - image_path: /assets/art/Patiala_Phulkari.svg
     alt_text: 4-color squarish tiling pattern
+    min_height: 306px
   - image_path: /assets/art/lostcity_phulkari.svg
     alt-text: 3-color diamond-ish tiling pattern
+    min_height: 180px
   - image_path: /assets/art/phulkari3.svg
     alt-text: 5-color isometric-ish tiling pattern
+    min_height: 252px
 coolness: 6
 ---
 Tiling patterns based on Indian Phulkari embroidery.
