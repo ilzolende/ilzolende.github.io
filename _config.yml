@@ -24,3 +24,6 @@ collections:
   art:
   mesolexia:
     output: true
+external_fonts:
+  - url: "https://fontlibrary.org/face/dejavu-serif"
+  - url: "https://fontlibrary.org/face/grand-hotel"
