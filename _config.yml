@@ -26,4 +26,4 @@ collections:
     output: true
 external_fonts:
   - url: "https://fontlibrary.org/face/dejavu-serif"
-  - url: "https://fontlibrary.org/face/grand-hotel"
+  - url: "https://fontlibrary.org/face/roundstyle"

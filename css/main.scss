@@ -7,7 +7,7 @@
 $body-width: 35em;
 
 $base-font-family: "DejaVuSerifBook", "DejaVu Serif", Georgia, serif;
-$alt-font-family: "Grand Hotel", "DejaVu Sans", Verdana, sans-serif;
+$alt-font-family: "RoundStyleDecoBook", "DejaVu Sans", Verdana, sans-serif;
 $mono-font-family: "DejaVu Sans Mono", monospace;
 
 $base-font-size:   12pt;
@@ -23,6 +23,6 @@ $spacing-unit: $base-line-height * 1rem;
 @import "layout-audio-twocolumn";
 @import "syntax-highlighting";
 
-body>header>h1 {
-  font-weight: 200;
+body>header>h1::first-letter {
+  font-family: "RoundStyleBasicBook";
 }
