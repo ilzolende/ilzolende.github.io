@@ -1,12 +1,17 @@
 /**
  * Main page
  */
+html {
+  background-attachment: fixed;
+}
+
 
 body {
   max-width: $body-width;
   margin-left:auto;
   margin-right:auto;
   padding: 1px $spacing-unit;
+  box-shadow: 0 0 6pt rgba(0, 0, 0, 0.2);
 }
 
 /**

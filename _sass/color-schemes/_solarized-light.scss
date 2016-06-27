@@ -29,10 +29,6 @@ $main-title-color: $red; //title
 
 html {
   background-image: url('/assets/images/onions2.svg');
-  background-attachment: fixed;
-}
-body{
-  box-shadow: 0 0 6pt rgba(0, 0, 0, 0.2);
 }
 pre, code {
   border-color: darken($base2, 15%) !important;
