@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+]>
+<svg version="1.1"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="72px" height="72px" viewBox="37 37.414 72 72"
+	 style="overflow:visible;enable-background:new 37 37.414 72 72;" xml:space="preserve">
+<style type="text/css">
+<![CDATA[
+	.outline{stroke:#eee8d5;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;}
+	.st0{clip-path:url(#SVGID_16_);fill:none;}
+	.st1{clip-path:url(#SVGID_14_);fill:none;}
+	.st2{clip-path:url(#SVGID_9_);fill:none;}
+	.st3{clip-path:url(#SVGID_12_);fill:none;}
+	.st4{clip-path:url(#SVGID_8_);fill:none;}
+	.st5{clip-path:url(#SVGID_20_);fill:none;}
+	.st6{clip-path:url(#SVGID_7_);fill:none;}
+	.st7{clip-path:url(#SVGID_10_);fill:none;}
+	.st8{clip-path:url(#SVGID_6_);fill:none;}
+	.st9{fill:#FFFFFF;}
+	.st10{clip-path:url(#SVGID_18_);fill:none;}
+]]>
+</style>
+<defs>
+</defs>
+<path class="outline st9" d="M73,37.414c0,19.882-16.118,36-36,36c-19.883,0-36-16.118-36-36c0-27,27-27,36-36
+	C46,10.414,73,10.414,73,37.414z"/>
+<g>
+	<defs>
+		<path id="SVGID_5_" d="M73,37.414c0,19.882-16.118,36-36,36c-19.883,0-36-16.118-36-36c0-27,27-27,36-36
+			C46,10.414,73,10.414,73,37.414z"/>
+	</defs>
+	<clipPath id="SVGID_6_">
+		<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
+	</clipPath>
+	<path class="outline st8" d="M2,46.414c0-27,26-27,35-36c9,9,35,9,35,36"/>
+	<path class="outline st8" d="M5,55.414c0-27,23-27,32-36c9,9,32,9,32,36"/>
+	<path class="outline st8" d="M28,82.414c0-27,0-27,9-36c9,9,9,9,9,36"/>
+	<path class="outline st8" d="M11,64.414c0-27,17-27,26-36c9,9,26,9,26,36"/>
+	<path class="outline st8" d="M19,73.414c0-27,9-27,18-36c9,9,18,9,18,36"/>
+</g>
+<path class="outline st9" d="M145,37.414c0,19.882-16.118,36-36,36c-19.883,0-36-16.118-36-36c0-27,27-27,36-36
+	C118,10.414,145,10.414,145,37.414z"/>
+<g>
+	<defs>
+		<path id="SVGID_4_" d="M145,37.414c0,19.882-16.118,36-36,36c-19.883,0-36-16.118-36-36c0-27,27-27,36-36
+			C118,10.414,145,10.414,145,37.414z"/>
+	</defs>
+	<clipPath id="SVGID_7_">
+		<use xlink:href="#SVGID_4_"  style="overflow:visible;"/>
+	</clipPath>
+	<path class="outline st6" d="M74,46.414c0-27,26-27,35-36c9,9,35,9,35,36"/>
+	<path class="outline st6" d="M77,55.414c0-27,23-27,32-36c9,9,32,9,32,36"/>
+	<path class="outline st6" d="M100,82.414c0-27,0-27,9-36c9,9,9,9,9,36"/>
+	<path class="outline st6" d="M83,64.414c0-27,17-27,26-36c9,9,26,9,26,36"/>
+	<path class="outline st6" d="M91,73.414c0-27,9-27,18-36c9,9,18,9,18,36"/>
+</g>
+<path class="outline st9" d="M109,73.414c0,19.882-16.118,36-36,36c-19.883,0-36-16.118-36-36c0-27,27-27,36-36
+	C82,46.414,109,46.414,109,73.414z"/>
+<g>
+	<defs>
+		<path id="SVGID_3_" d="M109,73.414c0,19.882-16.118,36-36,36c-19.883,0-36-16.118-36-36c0-27,27-27,36-36
+			C82,46.414,109,46.414,109,73.414z"/>
+	</defs>
+	<clipPath id="SVGID_8_">
+		<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+	</clipPath>
+	<path class="outline st4" d="M38,82.414c0-27,26-27,35-36c9,9,35,9,35,36"/>
+	<path class="outline st4" d="M41,91.414c0-27,23-27,32-36c9,9,32,9,32,36"/>
+	<path class="outline st4" d="M64,118.414c0-27,0-27,9-36c9,9,9,9,9,36"/>
+	<path class="outline st4" d="M47,100.414c0-27,17-27,26-36c9,9,26,9,26,36"/>
+	<path class="outline st4" d="M55,109.414c0-27,9-27,18-36c9,9,18,9,18,36"/>
+</g>
+<path class="outline st9" d="M73,109.414c0,19.882-16.118,36-36,36c-19.883,0-36-16.118-36-36c0-27,27-27,36-36
+	C46,82.414,73,82.414,73,109.414z"/>
+<g>
+	<defs>
+		<path id="SVGID_2_" d="M73,109.414c0,19.882-16.118,36-36,36c-19.883,0-36-16.118-36-36c0-27,27-27,36-36
+			C46,82.414,73,82.414,73,109.414z"/>
+	</defs>
+	<clipPath id="SVGID_9_">
+		<use xlink:href="#SVGID_2_"  style="overflow:visible;"/>
+	</clipPath>
+	<path class="outline st2" d="M2,118.414c0-27,26-27,35-36c9,9,35,9,35,36"/>
+	<path class="outline st2" d="M5,127.414c0-27,23-27,32-36c9,9,32,9,32,36"/>
+	<path class="outline st2" d="M28,154.414c0-27,0-27,9-36c9,9,9,9,9,36"/>
+	<path class="outline st2" d="M11,136.414c0-27,17-27,26-36c9,9,26,9,26,36"/>
+	<path class="outline st2" d="M19,145.414c0-27,9-27,18-36c9,9,18,9,18,36"/>
+</g>
+<path class="outline st9" d="M145,109.414c0,19.882-16.118,36-36,36c-19.883,0-36-16.118-36-36c0-27,27-27,36-36
+	C118,82.414,145,82.414,145,109.414z"/>
+<g>
+	<defs>
+		<path id="SVGID_1_" d="M145,109.414c0,19.882-16.118,36-36,36c-19.883,0-36-16.118-36-36c0-27,27-27,36-36
+			C118,82.414,145,82.414,145,109.414z"/>
+	</defs>
+	<clipPath id="SVGID_10_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<path class="outline st7" d="M74,118.414c0-27,26-27,35-36c9,9,35,9,35,36"/>
+	<path class="outline st7" d="M77,127.414c0-27,23-27,32-36c9,9,32,9,32,36"/>
+	<path class="outline st7" d="M100,154.414c0-27,0-27,9-36c9,9,9,9,9,36"/>
+	<path class="outline st7" d="M83,136.414c0-27,17-27,26-36c9,9,26,9,26,36"/>
+	<path class="outline st7" d="M91,145.414c0-27,9-27,18-36c9,9,18,9,18,36"/>
+</g>
+</svg>
