@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+    <link rel="stylesheet" href="/css/main.css">
+    {% for font in site.external_fonts %}
+    <link rel="stylesheet" media="screen" href="{{ font.url }}" type="text/css"/>
+    {% endfor %}
+  </head>
+  <body>
+    {% include header.html %}
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+    {% include footer.html %}
+  </body>
+
+</html>

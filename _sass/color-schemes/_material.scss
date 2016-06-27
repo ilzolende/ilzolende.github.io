@@ -1,0 +1,25 @@
+//source: https://material.google.com/style/color.html amber
+
+$text-color: #000;
+$background-color: #fff;
+$is-dark-background: false;
+
+$secondary-text-color:  rgba(0, 0, 0, 0.6);
+$dividing-line-color: #fce4ec; //lowest contrast
+$link-color: #c2185b; //unclicked link
+$link-visited-color: #e91e63; //clicked link
+$main-title-color: #ff4081; //title
+
+html {
+  background-image: url('/assets/images/arcs.svg');
+  background-attachment: fixed;
+}
+body{
+  box-shadow: 0 0 6pt rgba(0, 0, 0, 0.2);
+}
+pre, code {
+  border-color: #f8bbd0 !important;
+  background-color: #fce4ec !important;
+}
+/**::-moz-selection{background-color: $base2;}
+*::selection{background-color: $base2;}*/
