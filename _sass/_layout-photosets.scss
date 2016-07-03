@@ -48,4 +48,8 @@ figure.photoset {
   &.L10a140 a:first-child img {
     padding: 2.25pt;
   }
+  &.ilzoctopus img {
+    max-width: 100%;
+    max-height: 100%;
+  }
 }
