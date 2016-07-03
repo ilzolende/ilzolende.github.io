@@ -33,20 +33,26 @@
 	.st21{fill:none;stroke:#E2C675;stroke-width:2;stroke-miterlimit:10;}
 	.st22{fill:#FF00FF;}
 	.st23{fill:none;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;}
-	.flashingbackground{animation: pulse 2s infinite;}
+	.flashingbackground{animation: pulse 1.7s infinite;}
 	@keyframes pulse {
 	  0% {
-	    fill: black;
+	    fill: blue;
+	  }
+	  25% {
+	    fill: green;
 	  }
 	  50% {
-	    fill: white;
+	    fill: yellow;
+	  }
+	  75% {
+	    fill: green;
 	  }
 		100% {
-	    fill: black;
+	    fill: blue;
 	  }
 	}
 	.flashinglines{animation: pulser 2s infinite;}
-	@keyframes pulse {
+	@keyframes pulser {
 	  0% {
 	    fill: white;
 	  }
@@ -63,32 +69,32 @@
 ]]>
 </style>
 <defs>
-		<pattern  x="-72" y="28.8" width="72" height="72" patternUnits="userSpaceOnUse" id="_x36__lpi_50_x25__1" viewBox="24 -72 72 72" style="overflow:visible;">
+		<pattern  x="-72" y="28.8" width="72" height="72" patternUnits="userSpaceOnUse" id="stripey_pattern" viewBox="24 -72 72 72" style="overflow:visible;">
 		<g>
 			<polygon style="fill:none;" points="24,0 24,-72 96,-72 96,0 			"/>
-			<line style="fill:none;stroke-width:6;" x1="23.75" y1="-6" x2="96.25" y2="-6">
-				<animate id="line1" attributeName="stroke" from="black" to="white" dur="1s" fill="freeze" />
+			<line style="stroke-width:6;" x1="23.75" y1="-6" x2="96.25" y2="-6">
+				<animate id="line1" attributeName="stroke" from="red" to="cyan" dur="0.95s" fill="freeze" repeatCount="indefinite" />
 			</line>
 			<line style="fill:none;stroke-width:6;" x1="23.75" y1="-30" x2="96.25" y2="-30">
-				<animate id="line2" attributeName="stroke" from="black" to="white" dur="1s" fill="freeze" />
+				<animate id="line2" attributeName="stroke" from="red" to="cyan" dur="0.95s" fill="freeze" repeatCount="indefinite" />
 			</line>
 			<line style="fill:none;stroke-width:6;" x1="23.75" y1="-54" x2="96.25" y2="-54">
-				<animate id="line3" attributeName="stroke" from="black" to="white" dur="1s" fill="freeze" />
+				<animate id="line3" attributeName="stroke" from="red" to="cyan" dur="0.95s" fill="freeze" repeatCount="indefinite" />
 			</line>
 			<line style="fill:none;stroke-width:6;" x1="0" y1="-54" x2="16.5" y2="-54">
-				<animate id="line4" attributeName="stroke" from="black" to="white" dur="1s" fill="freeze" />
+				<animate id="line4" attributeName="stroke" from="red" to="cyan" dur="0.95s" fill="freeze" repeatCount="indefinite" />
 			</line>
 			<line style="fill:none;stroke-width:6;" x1="23.75" y1="-18" x2="96.25" y2="-18">
-				<animate id="line5" attributeName="stroke" from="black" to="white" dur="1s" fill="freeze" />
+				<animate id="line5" attributeName="stroke" from="red" to="cyan" dur="0.95s" fill="freeze" repeatCount="indefinite" />
 			</line>
 			<line style="fill:none;stroke-width:6;" x1="23.75" y1="-42" x2="96.25" y2="-42">
-				<animate id="line6" attributeName="stroke" from="black" to="white" dur="1s" fill="freeze" />
+				<animate id="line6" attributeName="stroke" from="red" to="cyan" dur="0.95s" fill="freeze" repeatCount="indefinite" />
 			</line>
 			<line style="fill:none;stroke-width:6;" x1="23.75" y1="-66" x2="96.25" y2="-66">
-				<animate id="line7" attributeName="stroke" from="black" to="white" dur="1s" fill="freeze" />
+				<animate id="line7" attributeName="stroke" from="red" to="cyan" dur="0.95s" fill="freeze" repeatCount="indefinite" />
 			</line>
 			<line style="fill:none;stroke-width:6;" x1="0" y1="-66" x2="16.5" y2="-66">
-				<animate id="line8" attributeName="stroke" from="black" to="white" dur="1s" fill="freeze" />
+				<animate id="line8" attributeName="stroke" from="red" to="cyan" dur="0.95s" fill="freeze" repeatCount="indefinite" />
 			</line>
 		</g>
 	</pattern>
@@ -542,7 +548,7 @@
 		c-2.116-8.734-4.17-17.415-5.709-26.041c0.626,0.881,1.239,1.777,1.835,2.69c4.6,7.059,8.284,14.981,11.277,23.247
 		c-0.764-0.927-1.632-1.771-2.636-2.426c-1.107-0.727-2.423-1.214-3.724-1.118c1.3,0.098,2.453,0.744,3.385,1.566
 		c0.938,0.829,1.692,1.845,2.307,2.924c1.22,2.167,1.904,4.61,2.046,7.017C142.879,321.711,142.433,324.098,141.347,326.032z"/>
-	<path style="fill:url(#_x36__lpi_50_x25__1);" d="M206.881,290.68c-3.427,2.807-7.252,5.015-11.288,6.38
+	<path style="fill:url(#stripey_pattern);" d="M206.881,290.68c-3.427,2.807-7.252,5.015-11.288,6.38
 		c-4.031,1.38-8.247,1.917-12.384,1.688c-4.141-0.224-8.202-1.192-12.035-2.701c-7.663-3.031-14.479-8.164-19.582-14.286
 		c-2.542-3.058-4.642-6.395-6.022-9.741c-0.683-1.67-1.188-3.337-1.453-4.912c-0.139-0.787-0.21-1.549-0.23-2.272
 		c-0.01-0.361-0.005-0.713,0.017-1.053l0.015-0.253l0.028-0.155l0.011-0.077l0.015-0.211l0.028-0.425L135,262.8v-9h-9v-63l-9-9v-27
@@ -617,7 +623,7 @@
 		c4.834,1.209,9.734-1.731,10.942-6.565s-1.731-9.734-6.565-10.942c-3.438-0.86-6.903,0.387-9.056,2.914l-23.325-5.831L72,217.744
 		v0.056h72v-0.055l10.533,21.064l-19.725-4.931c-0.711-3.243-3.182-5.974-6.62-6.833c-4.834-1.209-9.734,1.731-10.942,6.565
 		c-1.209,4.834,1.731,9.734,6.565,10.942c3.438,0.86,6.903-0.387,9.057-2.914l36.599,9.15L147.578,207.011z"/>
-	<path style="fill:url(#_x36__lpi_50_x25__1);" d="M147.578,207.011L144,208.8H72l-3.578-1.789l-20.23,40.46l33,8.25
+	<path style="fill:url(#stripey_pattern);" d="M147.578,207.011L144,208.8H72l-3.578-1.789l-20.23,40.46l33,8.25
 		c0.71,3.243,3.181,5.974,6.62,6.833c4.834,1.209,9.734-1.731,10.942-6.565s-1.731-9.734-6.565-10.942
 		c-3.438-0.86-6.903,0.387-9.056,2.914l-23.325-5.831L72,217.744v0.056h72v-0.055l10.533,21.064l-19.725-4.931
 		c-0.711-3.243-3.182-5.974-6.62-6.833c-4.834-1.209-9.734,1.731-10.942,6.565c-1.209,4.834,1.731,9.734,6.565,10.942
