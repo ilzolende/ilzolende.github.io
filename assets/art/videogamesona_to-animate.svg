@@ -33,7 +33,30 @@
 	.st21{fill:none;stroke:#E2C675;stroke-width:2;stroke-miterlimit:10;}
 	.st22{fill:#FF00FF;}
 	.st23{fill:none;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;}
-	.st24{fill:#00FFFF;}
+	.flashingbackground{animation: pulse 2s infinite;}
+	@keyframes pulse {
+	  0% {
+	    fill: black;
+	  }
+	  50% {
+	    fill: white;
+	  }
+		100% {
+	    fill: black;
+	  }
+	}
+	.flashinglines{animation: pulser 2s infinite;}
+	@keyframes pulse {
+	  0% {
+	    fill: white;
+	  }
+	  50% {
+	    fill: black;
+	  }
+		100% {
+	    fill: white;
+	  }
+	}
 	.st25{fill-rule:evenodd;clip-rule:evenodd;fill:#CC3300;}
 	.st26{fill:none;stroke:#ED1C24;stroke-width:4;stroke-miterlimit:10;}
 	.st27{filter:url(#AI_GaussianBlur_4);}
@@ -46,13 +69,27 @@
 			<line style="fill:none;stroke-width:6;" x1="23.75" y1="-6" x2="96.25" y2="-6">
 				<animate id="line1" attributeName="stroke" from="black" to="white" dur="1s" fill="freeze" />
 			</line>
-			<line style="fill:none;stroke:#00FF00;stroke-width:6;" x1="23.75" y1="-30" x2="96.25" y2="-30"/>
-			<line style="fill:none;stroke:#00FF00;stroke-width:6;" x1="23.75" y1="-54" x2="96.25" y2="-54"/>
-			<line style="fill:none;stroke:#00FF00;stroke-width:6;" x1="0" y1="-54" x2="16.5" y2="-54"/>
-			<line style="fill:none;stroke:#00FF00;stroke-width:6;" x1="23.75" y1="-18" x2="96.25" y2="-18"/>
-			<line style="fill:none;stroke:#00FF00;stroke-width:6;" x1="23.75" y1="-42" x2="96.25" y2="-42"/>
-			<line style="fill:none;stroke:#00FF00;stroke-width:6;" x1="23.75" y1="-66" x2="96.25" y2="-66"/>
-			<line style="fill:none;stroke:#00FF00;stroke-width:6;" x1="0" y1="-66" x2="16.5" y2="-66"/>
+			<line style="fill:none;stroke-width:6;" x1="23.75" y1="-30" x2="96.25" y2="-30">
+				<animate id="line2" attributeName="stroke" from="black" to="white" dur="1s" fill="freeze" />
+			</line>
+			<line style="fill:none;stroke-width:6;" x1="23.75" y1="-54" x2="96.25" y2="-54">
+				<animate id="line3" attributeName="stroke" from="black" to="white" dur="1s" fill="freeze" />
+			</line>
+			<line style="fill:none;stroke-width:6;" x1="0" y1="-54" x2="16.5" y2="-54">
+				<animate id="line4" attributeName="stroke" from="black" to="white" dur="1s" fill="freeze" />
+			</line>
+			<line style="fill:none;stroke-width:6;" x1="23.75" y1="-18" x2="96.25" y2="-18">
+				<animate id="line5" attributeName="stroke" from="black" to="white" dur="1s" fill="freeze" />
+			</line>
+			<line style="fill:none;stroke-width:6;" x1="23.75" y1="-42" x2="96.25" y2="-42">
+				<animate id="line6" attributeName="stroke" from="black" to="white" dur="1s" fill="freeze" />
+			</line>
+			<line style="fill:none;stroke-width:6;" x1="23.75" y1="-66" x2="96.25" y2="-66">
+				<animate id="line7" attributeName="stroke" from="black" to="white" dur="1s" fill="freeze" />
+			</line>
+			<line style="fill:none;stroke-width:6;" x1="0" y1="-66" x2="16.5" y2="-66">
+				<animate id="line8" attributeName="stroke" from="black" to="white" dur="1s" fill="freeze" />
+			</line>
 		</g>
 	</pattern>
 </defs>
@@ -469,7 +506,7 @@
 	</g>
 </g>
 <g>
-	<path class="st24" d="M206.881,290.68c-3.427,2.807-7.252,5.015-11.288,6.38c-4.031,1.38-8.247,1.917-12.384,1.688
+	<path class="flashingbackground" d="M206.881,290.68c-3.427,2.807-7.252,5.015-11.288,6.38c-4.031,1.38-8.247,1.917-12.384,1.688
 		c-4.141-0.224-8.202-1.192-12.035-2.701c-7.663-3.031-14.479-8.164-19.582-14.286c-2.542-3.058-4.642-6.395-6.022-9.741
 		c-0.683-1.67-1.188-3.337-1.453-4.912c-0.139-0.787-0.21-1.549-0.23-2.272c-0.01-0.361-0.005-0.713,0.017-1.053l0.015-0.253
 		l0.028-0.155l0.011-0.077l0.015-0.211l0.028-0.425L135,262.8v-9h-9v-63l-9-9v-27l27-54H72l27,54v27l-9,9v63h-9v7.837
@@ -576,7 +613,7 @@
 	</g>
 </g>
 <g>
-	<path class="st24" d="M147.578,207.011L144,208.8H72l-3.578-1.789l-20.23,40.46l33,8.25c0.71,3.243,3.181,5.974,6.62,6.833
+	<path class="flashingbackground" d="M147.578,207.011L144,208.8H72l-3.578-1.789l-20.23,40.46l33,8.25c0.71,3.243,3.181,5.974,6.62,6.833
 		c4.834,1.209,9.734-1.731,10.942-6.565s-1.731-9.734-6.565-10.942c-3.438-0.86-6.903,0.387-9.056,2.914l-23.325-5.831L72,217.744
 		v0.056h72v-0.055l10.533,21.064l-19.725-4.931c-0.711-3.243-3.182-5.974-6.62-6.833c-4.834-1.209-9.734,1.731-10.942,6.565
 		c-1.209,4.834,1.731,9.734,6.565,10.942c3.438,0.86,6.903-0.387,9.057-2.914l36.599,9.15L147.578,207.011z"/>
