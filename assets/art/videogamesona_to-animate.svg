@@ -65,7 +65,7 @@
 	}
 	.st25{fill-rule:evenodd;clip-rule:evenodd;fill:#CC3300;}
 	.st26{fill:none;stroke:#ED1C24;stroke-width:4;stroke-miterlimit:10;}
-	.st27{filter:url(#AI_GaussianBlur_4);}
+	.inkblur{filter:url(#AI_GaussianBlur_4);}
 ]]>
 </style>
 <defs>
@@ -706,7 +706,8 @@
 		<line class="st8" x1="126" y1="181.8" x2="126" y2="181.8"/>
 	</g>
 </g>
-<g id="inky_1_" class="st27">
+<g id="inky_1_" class="inkblur">
+	<animate id="fadeout" attributeName="opacity" from="1" to="0" dur="5s" fill="freeze" />
 	<g>
 		<g>
 			<path d="M143.256,194.383c-0.591,1.114-1.107,1.967-1.669,2.897c-0.554,0.907-1.115,1.794-1.687,2.67
