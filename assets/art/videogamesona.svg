@@ -58,7 +58,7 @@
 		<circle fill="#FF0000" cx="126" cy="111" r="3"/>
 	</g>
 </g>
-<g>
+<g opacity="0.7">
 	<g>
 		<path fill="#858E8D" d="M89.256,240.583c-0.591,1.114-1.108,1.967-1.669,2.896c-0.553,0.908-1.115,1.794-1.686,2.671
 			c-1.144,1.75-2.326,3.457-3.551,5.131c-2.449,3.345-5.064,6.558-7.869,9.614c-5.608,6.088-12.001,11.642-19.427,15.676
@@ -118,11 +118,13 @@
 			c-0.121-0.051-0.35-0.149-0.204-0.044L121.12,228.998z"/>
 	</g>
 </g>
-<polyline fill="#858E8D" points="99,129 99,156 90,165 108,174 126,165 117,156 117,129 "/>
-<g filter="url(#shadow)">
-	<polygon fill="#858E8D" points="101,130 108,146.999 115,130 	"/>
+<g opacity="0.7">
+	<polyline fill="#858E8D" points="99,129 99,156 90,165 108,174 126,165 117,156 117,129 "/>
+	<g filter="url(#shadow)">
+		<polygon fill="#858E8D" points="101,130 108,146.999 115,130 	"/>
+	</g>
+	<polygon fill="#858E8D" points="72,75 108,147 144,75 "/>
 </g>
-<polygon fill="#858E8D" points="72,75 108,147 144,75 "/>
 <line fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" x1="99" y1="111" x2="99" y2="93"/>
 <line fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" x1="117" y1="111" x2="117" y2="93"/>
 <g>
@@ -138,7 +140,7 @@
 		<line fill="none" stroke="#E2C675" stroke-width="2" stroke-miterlimit="10" x1="90" y1="210" x2="90" y2="246"/>
 	</g>
 </g>
-<g>
+<g opacity="0.7">
 	<g>
 		<polyline fill="none" stroke="#858E8D" stroke-width="8" stroke-miterlimit="10" points="144,183 162,219 126,210 		"/>
 		<g>
@@ -146,7 +148,7 @@
 		</g>
 	</g>
 </g>
-<g>
+<g opacity="0.7">
 	<g>
 		<polyline fill="none" stroke="#858E8D" stroke-width="8" stroke-miterlimit="10" points="72,183 54,219 90,228 		"/>
 		<g>
