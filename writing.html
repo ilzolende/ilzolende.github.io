@@ -1,0 +1,17 @@
+---
+layout: page
+title: Writing
+permalink: /writing/
+ordering_priority: 10
+
+---
+<dl>
+  {% for document in site.writing %}
+    <dt>
+      <a href="{{ document.url | prepend: site.baseurl }}">{{ document.title }}</a> {% if document.is_draft %}(Draft){% endif %}
+    </dt>
+    <dd>
+      {{ document.description }}
+    </dd>
+  {% endfor %}
+</dl>
