@@ -24,6 +24,8 @@ collections:
   art:
   mesolexia:
     output: true
+  writing:
+    output: true
 external_fonts:
   - url: "https://fontlibrary.org/face/dejavu-serif"
   - url: "https://fontlibrary.org/face/roundstyle"
