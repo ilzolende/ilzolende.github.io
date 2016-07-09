@@ -1,0 +1,52 @@
+https://keybase.io/ilzolende
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://ilzolende.github.io
+  * I am ilzolende (https://keybase.io/ilzolende) on keybase.
+  * I have a public key ASD7Nczu_tUW1Wp0CW-9H45Yac6lICEhMKmzQKG1d9JUeQo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101e836e185e8cbc734cf7098116b0c7d01aeb177b3f836f14964d96f2db1bbcc310a",
+            "host": "keybase.io",
+            "kid": "0120fb35cceefed516d56a74096fbd1f8e5869cea520212130a9b340a1b577d254790a",
+            "uid": "88ddfa22ade7787be3b103346098f419",
+            "username": "ilzolende"
+        },
+        "service": {
+            "hostname": "ilzolende.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.16"
+    },
+    "ctime": 1468037960,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1468037918,
+        "hash": "c60a6cce1b30926bd5c325b427559a1c46a8616cbb59e824194ed4df8589f8cad09e42ac762eb95010abfd9cbbf7c4fc382e32fc83d65f978500e032c8f06649",
+        "seqno": 515232
+    },
+    "prev": "f9be238851b5626e64779dabd49e37c97135d938c734516f80390e1f8045e936",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg+zXM7v7VFtVqdAlvvR+OWGnOpSAhITCps0ChtXfSVHkKp3BheWxvYWTFAvx7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxZTgzNmUxODVlOGNiYzczNGNmNzA5ODExNmIwYzdkMDFhZWIxNzdiM2Y4MzZmMTQ5NjRkOTZmMmRiMWJiY2MzMTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZmIzNWNjZWVmZWQ1MTZkNTZhNzQwOTZmYmQxZjhlNTg2OWNlYTUyMDIxMjEzMGE5YjM0MGExYjU3N2QyNTQ3OTBhIiwidWlkIjoiODhkZGZhMjJhZGU3Nzg3YmUzYjEwMzM0NjA5OGY0MTkiLCJ1c2VybmFtZSI6Imlsem9sZW5kZSJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiaWx6b2xlbmRlLmdpdGh1Yi5pbyIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE2In0sImN0aW1lIjoxNDY4MDM3OTYwLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0NjgwMzc5MTgsImhhc2giOiJjNjBhNmNjZTFiMzA5MjZiZDVjMzI1YjQyNzU1OWExYzQ2YTg2MTZjYmI1OWU4MjQxOTRlZDRkZjg1ODlmOGNhZDA5ZTQyYWM3NjJlYjk1MDEwYWJmZDljYmJmN2M0ZmMzODJlMzJmYzgzZDY1Zjk3ODUwMGUwMzJjOGYwNjY0OSIsInNlcW5vIjo1MTUyMzJ9LCJwcmV2IjoiZjliZTIzODg1MWI1NjI2ZTY0Nzc5ZGFiZDQ5ZTM3Yzk3MTM1ZDkzOGM3MzQ1MTZmODAzOTBlMWY4MDQ1ZTkzNiIsInNlcW5vIjo3LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQBLhAmeFD9+CP2MdPQtpBGjpsGPjy/PrncfOyVkArog8JNPHVeKYXa1lOWnLO1WOFjxjVg1af7zWo9tjHRkWkwSoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCCHeFe3FHixuLI6zF3eXFYsSq8DT4JsGrHCoGqHdAMDQ6N0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ilzolende
+
