@@ -2,10 +2,8 @@ $text-color: #000;
 $background-color: #fff;
 $is-dark-background: false;
 
-$secondary-text-color:  #666;
+$secondary-text-color:  rgba(0, 0, 0, 0.6);
 $dividing-line-color: #ccc; //lowest contrast
 $link-color: #00f; //unclicked link
 $link-visited-color: #939; //clicked link
-$main-title-color: #333; //title
-
-a:hover, a:visited:hover {color: #e00;} //special rule, most themes won't need this
+$main-title-color: #c00; //title
