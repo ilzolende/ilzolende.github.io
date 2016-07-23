@@ -26,7 +26,7 @@ $dividing-line-color: $base02; //lowest contrast
 $link-color: $violet; //unclicked link
 $link-visited-color: $blue; //clicked link
 $main-title-color: $cyan; //title
-html {background-image: url('/assets/images/fishscale.svg');}
+$site-background: url('/assets/images/fishscale.svg');
 pre, code {
   border-color: $base02 !important;
   background-color: transparentize($base02, 0.5) !important;

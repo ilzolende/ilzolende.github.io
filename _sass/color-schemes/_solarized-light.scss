@@ -26,10 +26,7 @@ $dividing-line-color: darken($base2, 5%); //lowest contrast
 $link-color: $orange; //unclicked link
 $link-visited-color: $magenta; //clicked link
 $main-title-color: $red; //title
-
-html {
-  background-image: url('/assets/images/onions2.svg');
-}
+$site-background: url('/assets/images/onions2.svg');
 pre, code {
   border-color: darken($base2, 15%) !important;
   background-color: $base2 !important;
