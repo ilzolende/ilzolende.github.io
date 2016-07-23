@@ -1,8 +1,12 @@
 figure.photoset {
-  border-top: solid thin $dividing-line-color;
+  padding-top: $spacing-unit * (11/12);
+  border-top: dashed $dividing-line-color;
+  border-top-width: $spacing-unit * (1/12);
+  margin-top: $spacing-unit;
   text-align: center;
-  padding-top: $spacing-unit;
-  
+  margin-left: 0;
+  margin-right: 0;
+
   > a {
     display: inline-block;
     margin: 3pt;
@@ -13,35 +17,31 @@ figure.photoset {
     &:active {
       border-style: ridge;
     }
+    img {
+      max-width: 15em;
+      max-height: 15em;
+      display: inline-block;
+    }
   }
-  
-  img {
-    max-width: 15em;
-    max-height: 15em;
-    display: inline-block;
-    //border: 0.75pt solid $link-color;
-  }
-  a:visited img {
-    //border: 0.75pt solid $link-visited-color;
-  }
-  
+
   > a:not(.patternblock):only-of-type {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
     img {
       max-width: 100%;
       max-height: 100%;
     }
   }
-  
+
   a.patternblock {
-    width: 90%;
+    width: 100%;
     height: 6em;
-    border-color: $background-color;
+    border: none;
   }
-  
+
   //special cases
-  
+
   &.L10a140 img {
     padding: 3pt;
   }
@@ -51,5 +51,9 @@ figure.photoset {
   &.ilzoctopus img {
     max-width: 100%;
     max-height: 100%;
+  }
+
+  figcaption {
+    text-align: left;
   }
 }

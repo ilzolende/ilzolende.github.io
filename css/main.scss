@@ -2,19 +2,18 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
-@import "color-schemes/solarized-light";
+@import "color-schemes/solarized";
+@import url("normalize.css");
 
 $body-width: 35em;
 
-$base-font-family: "DejaVuSerifBook", "DejaVu Serif", Georgia, serif;
-$alt-font-family: "RoundStyleDecoBook", "DejaVu Sans", Verdana, sans-serif;
+$base-font-family: "DejaVu Sans Mono", monospace;
 $mono-font-family: "DejaVu Sans Mono", monospace;
 
 $base-font-size:   12pt;
 $base-font-weight: 400;
 $small-font-size:  10.5pt;
 $base-line-height: 1.5;
-$spacing-unit: $base-line-height * 1rem;
 
 @import "base";
 @import "layout";
@@ -22,7 +21,3 @@ $spacing-unit: $base-line-height * 1rem;
 @import "layout-audio-onecolumn";
 @import "layout-audio-twocolumn";
 @import "syntax-highlighting";
-
-body>header>h1::first-letter {
-  font-family: "RoundStyleBasicBook";
-}

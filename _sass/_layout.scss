@@ -3,6 +3,7 @@
  */
 html {
   background-attachment: fixed;
+  background: $site-background;
 }
 
 
@@ -18,36 +19,23 @@ body {
  * Site header
  */
 body>header {
-    border-bottom: solid $dividing-line-color;
+    margin-top: $spacing-unit;
+    padding-bottom: $spacing-unit * (11/12);
+    border-bottom: dashed $dividing-line-color;
+    border-bottom-width: $spacing-unit * (1/12);
     margin-bottom: $spacing-unit;
-
     h1 {
-      font-size: 2 * $spacing-unit;
-      line-height: 1;
-      margin-top: $spacing-unit;
-      margin-bottom: $spacing-unit/2;
-      font-family: $alt-font-family;
-
+      margin-bottom: 0;
+      font-size: 2em;
       a, a:visited {
           color: $main-title-color;
       }
     }
 
     nav {
-      ul {
-        list-style: inside none none;
-        padding-left: 0;
-        margin-left: 0;
-        margin-top: $spacing-unit / 2;
-        margin-bottom: $spacing-unit / 2;
-        li {
-          display: inline-block;
-          margin: 0;
-          margin-right: 0.5em;
-          a {
-            // text-decoration: underline;
-          }
-        }
+      margin-top: 0;
+      a {
+        margin: 0 1ch 0 0;
       }
     }
 }
@@ -57,16 +45,10 @@ body>header {
  */
 .post-header {
   .post-title {
-    font-size: 2rem;
-    border-radius: 0.25em;
-    text-align: center;
     margin-bottom: 0;
-    // font-family: $alt-font-family;
   }
   .post-meta {
-    text-align: center;
     margin-top: 0;
-    font-style: italic;
     color: $secondary-text-color;
   }
 }
@@ -75,23 +57,10 @@ body>header {
  * Site footer
  */
 body>footer {
-  border-top: solid $dividing-line-color;
-  font-size: $small-font-size;
   color: $secondary-text-color;
-}
-
-/**
- * Blog post list
- */
-ul.post-list {
-  margin-left: 1.5ch;
-  list-style-type: square;
-  
-  .post-meta {
-    font-size: $small-font-size;
-  }
-  
-  a {
-    font-weight: bold;
-  }
+  padding-top: $spacing-unit * (11/12);
+  border-top: dashed $dividing-line-color;
+  border-top-width: $spacing-unit * (1/12);
+  margin-top: $spacing-unit;
+  margin-bottom: $spacing-unit;
 }

@@ -4,27 +4,17 @@
   display: inline-block;
   width: 47.5%;
   text-align: left;
-  margin-bottom: 0;
   // height: $spacing-unit * 4;
   audio {
     display: block;
     width: 90%;
   }
-  div.songname{
-    height: $spacing-unit * 2;
-    display: table;
+  div.audio-player-wrapper {
+    height: $spacing-unit;
   }
-  div.songname p {
-    display: table-cell;
-    margin: 0;
-    vertical-align: middle;
-  }
-  p.songname {margin-top: 0; margin-bottom: $spacing-unit / 2;}
-  .songtext {
-    font-size: $small-font-size;
-    color: $secondary-text-color;
-    height: $spacing-unit * 2;
-    display: table-cell;
+  h3.songname {
     margin-top: 0;
+    margin-bottom: $spacing-unit;
+    font-weight: normal;
   }
 }
