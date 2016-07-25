@@ -82,7 +82,7 @@ a {
         color: $link-visited-color;
     }
 
-    &:hover {
+    &:hover, &:focus {
         text-decoration: underline;
     }
 }

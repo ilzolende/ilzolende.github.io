@@ -11,7 +11,7 @@ figure.photoset {
     display: inline-block;
     margin: 3pt;
     border: $background-color inset 3pt;
-    &:hover {
+    &:hover, &:focus {
       border-style: outset;
     }
     &:active {
