@@ -9,7 +9,7 @@ ordering_priority: 5
 {% for audio in site.recordings | where "recording_type", "song" %}
 {% if audio.recording_type == "song" %}
   <section class="musicblockwide">
-    <div class="audio-player-wrapper"><audio src="{{ audio.audio_path }}" preload="metadata" controls>Your browser does not support HTML5 audio. Click <a href="{{ audio.audio_path }}">here</a> to listen.</audio></div>
+    <div class="audio-player-wrapper"><audio src="{{ audio.audio_path }}" preload="metadata" controls><a href="{{ audio.audio_path }}">Play song</a></audio></div>
     {% if audio.composer %}
       <h3 class="songname">{{ audio.title }}</h3>
       <p class="songtext"><a href="{{ audio.text_path }}">Lyrics by {{ audio.composer }}.</a></p>
@@ -23,7 +23,7 @@ ordering_priority: 5
 {% for audio in site.recordings %}
 {% if audio.recording_type == "poem" %}
   <section class="musicblockwide">
-    <div class="audio-player-wrapper"><audio src="{{ audio.audio_path }}" preload="metadata" controls>Your browser does not support HTML5 audio. Click <a href="{{ audio.audio_path }}">here</a> to listen.</audio></div>
+    <div class="audio-player-wrapper"><audio src="{{ audio.audio_path }}" preload="metadata" controls><a href="{{ audio.audio_path }}">Play poem</a></audio></div>
     <h3 class="songname">{{ audio.title }}</h3>
     <p class="songtext"><a href="{{ audio.text_path }}">Poem{% if audio.composer %} by {{ audio.composer }}.{% endif %}</a></p>
   </section>
@@ -33,7 +33,7 @@ ordering_priority: 5
 {% for audio in site.recordings %}
 {% if audio.recording_type == "hymn" %}
   <section class="musicblocknarrow">
-    <div class="audio-player-wrapper"><audio src="{{ audio.audio_path }}" preload="metadata" controls>Your browser does not support HTML5 audio. Click <a href="{{ audio.audio_path }}">here</a> to listen.</audio></div>
+    <div class="audio-player-wrapper"><audio src="{{ audio.audio_path }}" preload="metadata" controls><a href="{{ audio.audio_path }}">Play hymn</a></audio></div>
     {% if audio.text_path %}
       <h3 class="songname"><a href="{{ audio.text_path }}">{{ audio.title }}</a></h3>
     {% else %}
