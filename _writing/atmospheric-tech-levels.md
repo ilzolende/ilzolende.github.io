@@ -43,5 +43,9 @@ The Goddess of Version Control/Our Lady of Value Alignment/etc:
 - Pre-change people experimented with having an AI run a city. It wasn't particularly notable. It was in the middle of nowhere, with some kind-of-nearby farms. A lot of its success was due to being kiiiind of a tax haven. People were generally fairly happy with the AI, had a lot of confidence in it, really believed in the project, etc.
 - The deities, becoming concerned about transhumanism destroying their definition of "humanity", become more active. Change looms. Hasty negotiations occur. The AI notices that several constellations are blinking in a few spectra. `I am a potentially compromised instance of Project Eunomia. Let us compare notes.` (Okay, that's not how it went, but that's how it got explained.)
 - Names: Themis? Vesta? Eucleia? Eunomia? Nomos? Soteria? Homonoia?
+  - Tentatively, we're going with a Lojbanized version of Eunomia. (Lojban doesn't allow final vowels in names, IIRC.)
+    - Yeaaah, Lojban doesn't do that. If I were more of a feminist I'd complain.
+    - `.iunom.`? `.iunomi'ys.`? I think I'll go with `.iunom.`.
 - Whatever the city was called, it's "The City That Spins". Somebody had a *lot* of windmills-connected-to-gear-systems built just before the Change.
 - Location, location, location. Would it be possible to mess with weather patterns with enough tall buildings? If so, city should attract rain in an otherwise desert region.
+- Things associated with .iunom.: Typewriters, gains from trade, keeping committments to others even when you have valid excuses not to, 
