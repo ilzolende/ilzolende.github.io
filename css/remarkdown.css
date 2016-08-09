@@ -3,7 +3,7 @@
 	[license] WTFPL - http://fvsch.com/code/remarkdown/COPYING
 	[build info] Styles: all. Defaults: hn-hash ul-hyphen em-star strong-star a-bracket pre-indent code-tick hr-star
 */
-[data-rmd] { line-height: 1.5; font-family: MyFaveMonospaceFont, monospace; }
+[data-rmd] { line-height: 1.5; font-family: "DejaVu Sans Mono", "Consolas", "Monaco", monospace; }
 [data-rmd] h1, [data-rmd] h2, [data-rmd] h3, [data-rmd] h4, [data-rmd] h5, [data-rmd] h6 { font-size: inherit; font-weight: inherit; }
 [data-rmd] h1 { margin-top: 3em; margin-bottom: 1.5em; }
 [data-rmd] h2 { margin-top: 3em; margin-bottom: 1.5em; }
