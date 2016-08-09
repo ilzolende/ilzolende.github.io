@@ -19,16 +19,19 @@ body {
  */
 body>header {
     >a.site-title::before, >a.site-title::after { content: normal; }
-    >a {
+    >a.site-title {
       color: $main-title-color;
       &:visited {
           color: $main-title-color;
       }
       >h1 {
         margin-top: 1.5em;
+        font-weight: bold;
         margin-bottom: 0;
-        &:hover, &:focus, &:active {
-          &::after {text-decoration: underline;}
+        &::after { font-weight: normal; }
+        &:focus::after, &:hover::after, &:active::after {
+          font-weight: bolder;
+          text-decoration: none;
         }
       }
     }
