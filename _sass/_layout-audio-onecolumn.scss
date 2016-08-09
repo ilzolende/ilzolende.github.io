@@ -11,7 +11,7 @@
   }
   .songname {
     margin: 0;
-    font-weight: normal;
+    &::before { content: none; }
   }
   .songtext {
     color: $secondary-text-color;
