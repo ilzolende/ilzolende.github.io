@@ -11,7 +11,7 @@ body {
   max-width: $body-width;
   margin-left:auto;
   margin-right:auto;
-  padding: 1px $spacing-unit;
+  padding: 1px 1.5em;
   box-shadow: 0 0 6pt rgba(0, 0, 0, 0.2);
 }
 
@@ -19,24 +19,14 @@ body {
  * Site header
  */
 body>header {
-    margin-top: $spacing-unit;
-    padding-bottom: $spacing-unit * (11/12);
-    border-bottom: dashed $dividing-line-color;
-    border-bottom-width: $spacing-unit * (1/12);
-    margin-bottom: $spacing-unit;
     h1 {
       margin-bottom: 0;
-      font-size: 2em;
       a, a:visited {
           color: $main-title-color;
       }
     }
-
     nav {
       margin-top: 0;
-      a {
-        margin: 0 1ch 0 0;
-      }
     }
 }
 
@@ -58,9 +48,4 @@ body>header {
  */
 body>footer {
   color: $secondary-text-color;
-  padding-top: $spacing-unit * (11/12);
-  border-top: dashed $dividing-line-color;
-  border-top-width: $spacing-unit * (1/12);
-  margin-top: $spacing-unit;
-  margin-bottom: $spacing-unit;
 }

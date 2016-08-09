@@ -2,39 +2,25 @@
  * Basic styling
  */
 body {
-    font-size: $base-font-size;
-    line-height: $base-line-height;
-    font-family: $base-font-family;
     color: $text-color;
     background-color: $background-color;
 }
 
-/**
- * Create line gaps
- */
-$spacing-unit: $base-line-height * 1rem;
+$spacing-unit: 1.5em;
 
 /**
- * Set vertical margins to maintain vertical rhythm
+ * style description lists
  */
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure {
+dl {
     margin-bottom: $spacing-unit;
     margin-top: $spacing-unit;
 }
 
-/**
- * Make lists nest well
- */
-dl ol, dl ul, ol ol, ol ul, ul ol, ul ul {
+dl ol, dl ul {
   margin-top: 0;
   margin-bottom: 0;
 }
 
-ol, ul {
-  padding-left: 3ch;
-}
 dd {
   padding-left: 0;
   margin-left: 3ch;
@@ -59,14 +45,6 @@ figure > img {
 
 figcaption {
     font-size: $base-font-size;
-}
-
-/**
- * Headings
- */
-h1, h2, h3, h4, h5, h6 {
-    font-weight: bold;
-    font-size: 1rem;
 }
 
 
@@ -94,10 +72,6 @@ a {
  */
 blockquote {
     color: $secondary-text-color;
-    border-left: 0.25ch solid $dividing-line-color;
-    padding-left: 1.75ch;
-    margin-left: 0;
-    margin-right: 0;
 }
 
 
@@ -107,9 +81,7 @@ blockquote {
  */
 pre,
 code {
-    font-size: $small-font-size;
     font-family: $mono-font-family;
-    border-radius: 2pt;
     @if $is-dark-background {
       background-color: lighten($background-color, 10%);
     }
@@ -119,6 +91,5 @@ code {
 }
 
 pre {
-    padding: $spacing-unit 1ch;
     overflow-x: auto;
 }
