@@ -30,7 +30,7 @@ body>header {
         margin-bottom: 0;
         &::after { font-weight: normal; }
         &:focus::after, &:hover::after, &:active::after {
-          font-weight: bolder;
+          font-weight: bold;
           text-decoration: none;
         }
       }
