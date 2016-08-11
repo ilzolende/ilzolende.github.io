@@ -7,13 +7,15 @@
     <link rel="stylesheet" media="screen" href="{{ font.url }}" type="text/css"/>
     {% endfor %}
   </head>
-  <body>
+  <body data-rmd="h1-underline h2-underline ul-plus em-underscore hr-center">
     {% include header.html %}
+    <hr/>
     <div class="page-content">
       <div class="wrapper">
         {{ content }}
       </div>
     </div>
+    <hr/>
     {% include footer.html %}
   </body>
 

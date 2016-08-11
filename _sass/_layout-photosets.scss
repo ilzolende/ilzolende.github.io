@@ -17,6 +17,7 @@ figure.photoset {
     &:active {
       border-style: ridge;
     }
+    &::before, &::after { content: normal; }
     img {
       max-width: 15em;
       max-height: 15em;
@@ -35,9 +36,8 @@ figure.photoset {
   }
 
   a.patternblock {
-    width: 100%;
+    width: 80%;
     height: 6em;
-    border: none;
   }
 
   //special cases
