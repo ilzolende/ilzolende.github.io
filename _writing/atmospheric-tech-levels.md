@@ -46,6 +46,7 @@ The Goddess of Version Control/Our Lady of Value Alignment/etc:
   - Tentatively, we're going with a Lojbanized version of Eunomia. (Lojban doesn't allow final vowels in names, IIRC.)
     - Yeaaah, Lojban doesn't do that. If I were more of a feminist I'd complain.
     - `.iunom.`? `.iunomi'ys.`? I think I'll go with `.iunom.`.
+    - Tentative physical depiction: Face made out of clay with her name stamped into it in some typewriter-y monospace font where the eyes should be, mechanical-ish looking arms, dress is a literal swarm of bees
 - Whatever the city was called, it's "The City That Spins". Somebody had a *lot* of windmills-connected-to-gear-systems built just before the Change.
 - Location, location, location. Would it be possible to mess with weather patterns with enough tall buildings? If so, city should attract rain in an otherwise desert region.
-- Things associated with .iunom.: Typewriters, gains from trade, keeping committments to others even when you have valid excuses not to, 
+- Things associated with .iunom.: Typewriters, gains from trade, keeping commitments to others even when you have valid excuses not to,
