@@ -3,7 +3,7 @@ art_type: portrait
 short_name: portraits
 images:
   - alt_text: Me, Ilzolende Kiefer.
-    image_path: /assets/art/9KB_fixed.svg
+    image_path: /assets/art/monochrome-on-mulberry.svg
     hover_text: Ilzolende Kiefer
   - alt_text: Alison Morais
     image_path: /assets/art/alison_morais.svg
@@ -16,4 +16,4 @@ images:
     hover_text: DistinctiveHatAnon
 coolness: 10
 ---
-There's also a [monochrome version of the first portrait](/assets/art/monochrome-on-mulberry.svg).
+There's also a [color version of the first portrait](/assets/art/9KB_fixed.svg).
