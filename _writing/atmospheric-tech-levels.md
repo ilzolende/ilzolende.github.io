@@ -12,7 +12,14 @@ Earth gets to the Eclipse Phase tech level. It also has multiple space elevators
 
 Instead of the Fall, the Change means that levels of functioning tech get lower as you get closer to the center of the Earth. Ideally, we can configure this such that we can have steampunk zeppelins. Also maybe if you have a high mountain or something you can get some simpler stuff going? Also I'd like *some* interesting effects from hot-air balloons and human-powered planes if possible.
 
-What caused the Change? Is it deities? I'd like at least one AI ("Our Lady of Value Alignment/Version Control/etc" :P) who also plays a major role in some group's culture to have made it into the group of deities and managed to give her other self a bit of warning.
+What caused the Change? Is it deities? Yep, it's deities, like in the Emberverse. I am going to make up my own rules for how they work, though. I'd like at least one AI ("Our Lady of Value Alignment/Version Control/etc" :P) who also plays a major role in some group's culture to have made it into the group of deities and managed to give her other self a bit of warning.
+
+Support your local Malthusian hellhole! Also, I've only read "Dies the Fire", as well as ... pretty much every EP rulebook.
+
+Time:
+
+- Iunomians are count from the founding of The City That Spins. More generally, religious calendars are common.
+- Earth calendars are more lunisolar than they are now, everywhere else tends to stick to purely solar calendars (syncing up with Earth orbits is enough of a pain already, and "it's a new moon on Earth" is not easily derivable from looking up).
 
 Styx City:
 
@@ -23,13 +30,15 @@ Styx City:
   - Elevator is controlled by either the faction with the Goddess of Version Control or by the Bloody Order, probably. Actually, probably the Order and various Consortium-affiliated merchants.
 - Got the name because the elevator gets called the Styx. Goes to the heavens, etc. Also, when sufficient wealth gets thrown at things, liquid nitrogen and so on comes down and brains in very small insulated boxes go up. (The liquid nitrogen also comes down because of the Order, of course.)
 
-The Bloody Order:
+The Bloody Order/Crimson Choir/etc (names are hard):
 
 - A somewhat infohazardous memeplex. If enough infectees sing at you or wave banners in your face, you either get a lethal seizure or catch the meme.
   - It's your choice. If you get it in *space*, you take the seizure, which seems designed to not get in the way of revival processes.
   - The *idea* is for it to be useful as a combat mechanism and play a role in the criminal justice system on Earth.
 - The Order doesn't focus on forced conversion. It tends to run hospitals and offer to "rehabilitate" criminals for various functional city-states.
 - It probably maintains a cold chain as far away from Styx City as possible.
+- Symbol: At least two iterations of Sierpinski Carpet, rotated 45 degrees. Generally in red on a white background.
+- It's not clear how it was founded. Definitely pre-Change.
 
 The Selkies:
 
@@ -47,6 +56,14 @@ The Goddess of Version Control/Our Lady of Value Alignment/etc:
     - Yeaaah, Lojban doesn't do that. If I were more of a feminist I'd complain.
     - `.iunom.`? `.iunomi'ys.`? I think I'll go with `.iunom.`.
     - Tentative physical depiction: Face made out of clay with her name stamped into it in some typewriter-y monospace font where the eyes should be, mechanical-ish looking arms, dress is a literal swarm of bees
+      - note: doesn't have a body so much as a "thing to appear to have for video-calling and depiction purposes"
 - Whatever the city was called, it's "The City That Spins". Somebody had a *lot* of windmills-connected-to-gear-systems built just before the Change.
 - Location, location, location. Would it be possible to mess with weather patterns with enough tall buildings? If so, city should attract rain in an otherwise desert region.
 - Things associated with .iunom.: Typewriters, gains from trade, keeping commitments to others even when you have valid excuses not to,
+
+Theology:
+
+- Things born on Earth have souls. They don't *do* much, other than say "there's [species name] [unique identifier] born on Earth at this location". Much faster for finding things than "the densest cluster of this DNA sequence", if you have the sort of access-to-the-setting that deities have.
+  - Notable bugs with DNA-based searching: There is a tradition in bioengineering that if you design it, and it makes sense to have large portions of your genome in it, you're entitled to do so. Creating good incentives, and all that. Vlakiar Teal, developer of some of the most simple blood-synthesis methods producing results compatible across all blood types, appears to be at wherever the largest concentration of synthetic blood currently is.
+  - Notable bugs with soul-based searching: They generally become unlinked during full-body cryopreservation, reliably get unlinked for neuropreservation, don't get generated at all for extraterrestrial life forms, and *certainly* don't track resleeving.
+    - There is a ... market ... for ancephalic infants from Earth. It is about as questionable as it sounds.
