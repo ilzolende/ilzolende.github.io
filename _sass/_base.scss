@@ -94,3 +94,12 @@ code {
 pre {
     overflow-x: auto;
 }
+
+[data-rmd] cite {
+  font-style: normal;
+  font-weight: normal;
+  &::before { content: "[@" }
+  &::after { content: "]" }
+}
+
+[data-rmd~=hr-asterism] hr::before { content: '\2042'; }
