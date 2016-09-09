@@ -98,8 +98,7 @@ pre {
 [data-rmd] cite {
   font-style: normal;
   font-weight: normal;
-  &::before { content: "[@" }
-  &::after { content: "]" }
+  &::before, &::after { content: "\2017"; }
 }
 
 [data-rmd~=hr-asterism] hr::before { content: '\2042'; }
