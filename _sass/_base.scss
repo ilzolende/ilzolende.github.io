@@ -103,3 +103,4 @@ pre {
 }
 
 [data-rmd~=hr-asterism] hr::before { content: '\2042'; }
+[data-rmd~=em-underscore] em::before, [data-rmd~=em-underscore] em::after { font-weight: bold; }
