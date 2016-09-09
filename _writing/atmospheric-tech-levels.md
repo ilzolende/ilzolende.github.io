@@ -4,17 +4,17 @@ title: Ember Phase
 permalink: /writing/ember-phase/
 is_draft: true
 writing_type: setting
-description: Earth with the Emberverse tech level, influenced by a solar system with the Eclipse Phase tech level.
+description: Earth with the <cite>Emberverse</cite> tech level, influenced by a solar system with the <cite>Eclipse Phase</cite> tech level.
 ---
-Combining the Emberverse and Eclipse Phase with a hint of Zones of Thought?
+Combining the <cite>Emberverse</cite> and <cite>Eclipse Phase</cite> settings with a hint of <cite>Zones of Thought</cite>?
 
-Earth gets to the Eclipse Phase tech level. It also has multiple space elevators, among other things. Earthly factions matter more. Try and work in Earthly associates of EP factions. Ultimates and Autonomists probably have natural associates, Planetary Consortium cartels, etc.
+Earth gets to the <cite>Eclipse Phase</cite> tech level. It also has multiple space elevators, among other things. Earthly factions matter more. Try and work in Earthly associates of EP factions. Ultimates and Autonomists probably have natural associates, Planetary Consortium cartels, etc.
 
 Instead of the Fall, the Change means that levels of functioning tech get lower as you get closer to the center of the Earth. Ideally, we can configure this such that we can have steampunk zeppelins. Also maybe if you have a high mountain or something you can get some simpler stuff going? Also I'd like *some* interesting effects from hot-air balloons and human-powered planes if possible.
 
-What caused the Change? Is it deities? Yep, it's deities, like in the Emberverse. I am going to make up my own rules for how they work, though. I'd like at least one AI ("Our Lady of Value Alignment/Version Control/etc" :P) who also plays a major role in some group's culture to have made it into the group of deities and managed to give her other self a bit of warning.
+What caused the Change? Is it deities? Yep, it's deities, like in the <cite>Emberverse</cite>. I am going to make up my own rules for how they work, though. I'd like at least one AI ("Our Lady of Value Alignment/Version Control/etc" :P) who also plays a major role in some group's culture to have made it into the group of deities and managed to give her other self a bit of warning.
 
-Support your local Malthusian hellhole! Also, I've only read "Dies the Fire", as well as ... pretty much every EP rulebook.
+Support your local Malthusian hellhole! Also, I've only read <cite>Dies the Fire</cite>, as well as ... pretty much every EP rulebook.
 
 Time:
 
