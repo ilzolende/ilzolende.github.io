@@ -63,3 +63,10 @@ h2.page-heading { margin-top: 1.5em; }
 body>footer {
   color: $secondary-text-color;
 }
+
+aside.comments {
+  background-color: #fff;
+  padding: 1.5em;
+
+  noscript { font-family: "Helvetica Neue",arial,sans-serif; }
+}
