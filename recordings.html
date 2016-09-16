@@ -4,8 +4,9 @@ title: Recordings
 permalink: /recordings/
 ordering_priority: 5
 ---
-<article class="post">
-<h2>Songs</h2>
+<article class="page">
+<section id="songs">
+<h2 class="page-title">Songs</h2>
 {% for audio in site.recordings | where "recording_type", "song" %}
 {% if audio.recording_type == "song" %}
   <section class="musicblockwide">
@@ -19,7 +20,9 @@ ordering_priority: 5
   </section>
 {% endif %}
 {% endfor %}
-<h2>Poems</h2>
+</section>
+<section id="poems">
+<h2 class="page-title">Poems</h2>
 {% for audio in site.recordings %}
 {% if audio.recording_type == "poem" %}
   <section class="musicblockwide">
@@ -29,7 +32,9 @@ ordering_priority: 5
   </section>
 {% endif %}
 {% endfor %}
-<h2>Jewish Prayers/Hymns/etc</h2>
+</section>
+<section id="prayers">
+<h2 class="page-title">Jewish Prayers/Hymns/etc</h2>
 {% for audio in site.recordings %}
 {% if audio.recording_type == "hymn" %}
   <section class="musicblocknarrow">
@@ -42,4 +47,5 @@ ordering_priority: 5
   </section>
 {% endif %}
 {% endfor %}
+</section>
 </article>
