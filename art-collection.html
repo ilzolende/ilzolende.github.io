@@ -21,6 +21,7 @@ ordering_priority: 2
     <figure class="photoset {{ figure.short_name }}" id="{{ figure.short_name }}">
     {% for image in figure.images %}
       <a class="patternblock" style="background-image: url('{{ image.image_path }}'); {% if image.min_height %}min-height: {{ image.min_height }};{% endif %}" href="{{ image.image_path }}" {% if image.hover_text %}title="{{ image.hover_text }}"{% elsif image.alt_text %}title="{{ image.alt_text }}"{% endif %} >
+        <img src="{{ image.image_path }}" alt="{% if image.alt_text %}{{ image.alt_text }}{% else %}{{ figure.short_name }}{% endif %}" {% if image.hover_text %} title="{{ image.hover_text }}" {% endif %} style="display: none;" />
       </a>
     {% endfor %}
     {% if figure.content %}
