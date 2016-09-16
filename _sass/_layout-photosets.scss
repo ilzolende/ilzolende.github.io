@@ -1,11 +1,15 @@
 figure.photoset {
-  padding-top: $spacing-unit * (11/12);
-  border-top: dashed $dividing-line-color;
-  border-top-width: $spacing-unit * (1/12);
   margin-top: $spacing-unit;
   text-align: center;
   margin-left: 0;
   margin-right: 0;
+
+  &::before {
+    content: '\2042';
+    display: block;
+    color: $secondary-text-color;
+    margin-bottom: $spacing-unit;
+  }
 
   > a {
     display: inline-block;
