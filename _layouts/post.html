@@ -11,6 +11,7 @@ layout: default
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
+  {% if site.disqus_url %}
   <aside class="comments">
     <div id="disqus_thread"></div>
     <script>
@@ -25,7 +26,7 @@ layout: default
         (function() {  // DON'T EDIT BELOW THIS LINE
             var d = document, s = d.createElement('script');
 
-            s.src = 'https://ilzo-github.disqus.com/embed.js';
+            s.src = '{{ site.disqus_url }}';
 
             s.setAttribute('data-timestamp', +new Date());
             (d.head || d.body).appendChild(s);
@@ -33,4 +34,5 @@ layout: default
     </script>
     <noscript>The Disqus comments section requires enabling JS.</noscript>
   </aside>
+  {% endif %}
 </article>

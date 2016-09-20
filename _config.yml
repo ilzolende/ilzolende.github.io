@@ -15,6 +15,7 @@ url: "https://ilzolende.github.io" # the base hostname & protocol for your site
 github_username: ilzolende
 author: Ilzolende Kiefer
 footer: This site and its contents are **not** CC-licensed at this time. Downloads for personal use and using the Internet Archive are fine. Ask me about other uses; I'll probably approve.
+#disqus_url: https://ilzo-github.disqus.com/embed.js
 
 # Build settings
 markdown: kramdown
