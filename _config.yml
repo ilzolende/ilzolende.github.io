@@ -28,3 +28,4 @@ collections:
   writing:
     output: true
 external_fonts:
+remarkdown_options: h1-underline h2-underline ul-plus em-underscore hr-center hr-asterism

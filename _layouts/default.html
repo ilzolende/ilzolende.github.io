@@ -7,7 +7,7 @@
     <link rel="stylesheet" media="screen" href="{{ font.url }}" type="text/css"/>
     {% endfor %}
   </head>
-  <body data-rmd="h1-underline h2-underline ul-plus em-underscore hr-center hr-asterism">
+  <body {% if site.remarkdown_options %} data-rmd="{{ site.remarkdown_options }}" {% endif %}>
     {% include header.html %}
     <hr/>
     <main class="page-content">
