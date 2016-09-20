@@ -7,4 +7,4 @@ images:
 coolness: 1
 is_raster: true
 ---
-A tiling non-equilateral hexagon pattern.
+A tiling non-equilateral hexagon pattern. Obviously, I have no credible claim of copyright over this whatsoever, due to extreme simplicity. Copy all you like.

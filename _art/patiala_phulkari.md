@@ -13,7 +13,7 @@ images:
     min_height: 252px
 coolness: 6
 ---
-Tiling patterns based on Indian Phulkari embroidery.
+Tiling patterns based on Indian Phulkari embroidery. Note that they're almost certainly in the public domain due to geometric simplicity and unoriginality and so on, so copy away!
 
 1. From the Patiala region of India. Derived from cloth shown in the file [Patiala Phulkari](https://commons.wikimedia.org/wiki/File:Patiala_Phulkari.jpg), a photo taken by [Indu Singh](https://en.wikipedia.org/wiki/User:Indu_Singh).
 2. Copied from the pillows at [Lost City](http://lostcityproducts.com/index.php?q=shop-hand-embroidered-pillows-phulkari).
