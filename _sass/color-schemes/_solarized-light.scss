@@ -23,9 +23,9 @@ $is-dark-background: false;
 
 $secondary-text-color:  $base1;
 $dividing-line-color: darken($base2, 5%); //lowest contrast
-$link-color: $orange; //unclicked link
+$link-color: $violet; //unclicked link
 $link-visited-color: $magenta; //clicked link
-$main-title-color: $red; //title
+$main-title-color: $base02; //title
 $site-background: url('/assets/images/onions2.svg');
 pre, code {
   border-color: darken($base2, 15%) !important;
