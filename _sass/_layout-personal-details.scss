@@ -1,0 +1,92 @@
+figure.photoset {
+  margin-top: $spacing-unit;
+  text-align: center;
+  margin-left: 0;
+  margin-right: 0;
+
+  &::before {
+    content: '\2042';
+    display: block;
+    color: $secondary-text-color;
+    margin-bottom: $spacing-unit;
+  }
+
+  > a {
+    display: inline-block;
+    margin: 3pt;
+    border: $background-color inset 3pt;
+    &:hover, &:focus {
+      border-style: outset;
+    }
+    &:active {
+      border-style: ridge;
+    }
+    &::before, &::after { content: normal; }
+    img {
+      max-width: 15em;
+      max-height: 15em;
+      display: inline-block;
+    }
+  }
+
+  > a:not(.patternblock):only-of-type {
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+
+  a.patternblock {
+    width: 80%;
+    height: 6em;
+  }
+
+  //special cases
+
+  &.L10a140 img {
+    padding: 3pt;
+  }
+  &.L10a140 a:first-child img {
+    padding: 2.25pt;
+  }
+  &.ilzoctopus img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  figcaption {
+    text-align: left;
+  }
+}
+.musicblocknarrow {
+  display: inline-block;
+  width: 47.5%;
+  text-align: left;
+  audio {
+    display: block;
+    width: 90%;
+  }
+  h3.songname {
+    margin-top: 0;
+    margin-bottom: $spacing-unit;
+    &::before { content: none; }
+  }
+}
+.musicblockwide {
+  display: block;
+  margin-bottom: $spacing-unit;
+  audio {
+    display: block;
+  }
+  .songname {
+    margin: 0;
+    &::before { content: none; }
+  }
+  .songtext {
+    color: $secondary-text-color;
+    margin: 0;
+  }
+}
