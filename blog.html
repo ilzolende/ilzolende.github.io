@@ -1,11 +1,10 @@
 ---
-layout: default
-title: Blog
+layout: page
+title: Blog posts
+short_title: Blog
 permalink: /blog/
 ordering_priority: 9
 ---
-<article class="post">
-<h2>Blog posts</h2>
 <ul class="post-list">
   {% for post in site.posts %}
     <li>
@@ -15,4 +14,3 @@ ordering_priority: 9
 </ul>
 
 <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a> or view <a href="https://github.com/{{ site.github_username }}/{{ site.github_username }}.github.io">Jekyll source on GitHub</a></p>
-</article>
