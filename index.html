@@ -1,19 +1,36 @@
 ---
-layout: default
+layout: sparse
+styling: >
+  <style>
+  html {
+    background-color: #666;
+    color: #fff;
+    line-height: 1.5;
+    font-family: "DejaVu Sans Mono", "Consolas", "Monaco", monospace;
+    font-size: calc(1em + 2vmin);
+  }
+  a { color: #fff; display: block; margin-top: 1em; }
+  h1 { margin-top: 0; margin-bottom: 1em; font-size: 1em; }
+  main, img#splashimage { flex-grow: 1; }
+  #wrapper1 { max-width: 19ch; margin: auto; }
+  body {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  </style>
 ---
-
-<div class="home">
-  <p>{{ site.description }}</p>
-  <h2 class="page-heading">Blog posts</h2>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%F" }}</span> <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a> or view <a href="https://github.com/{{ site.github_username }}/{{ site.github_username }}.github.io">Jekyll source on GitHub</a></p>
-
-</div>
+<main><div id="wrapper1">
+  <div class="wrapper2"><h1>Zeroed E-Kiln File</h1></div>
+  {% for my_page in site.pages %}
+    <!-- {{ my_page.url }} -->
+  {% endfor %}
+  {% assign sorted_pages = site.pages | sort: "ordering_priority" %}
+  {% for my_page in sorted_pages %}
+    <div class="wrapper2"><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></div>
+    <!-- {{ my_page.url }} -->
+  {% endfor %}
+</div></main>
+<img id="splashimage" src="/assets/art/circle_square.svg"/>
