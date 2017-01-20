@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In  -->
+<!DOCTYPE svg [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+]>
+<svg version="1.2" baseProfile="tiny"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="198px" height="198px" viewBox="51 0 198 198" overflow="visible" xml:space="preserve">
+<defs>
+</defs>
+<rect fill="#666666" width="297" height="198"/>
+<path fill="#FFCC00" d="M222,45c-5.1-6.8-11.2-13-18-18l-36,27l-18,27l-18-27L96,27c-6.8,5-12.9,11.2-18,18L61.8,81
+	C60.6,86.8,60,92.8,60,99c0,6.2,0.6,12.2,1.8,18l16.1,36.1C83.1,159.9,89.1,166,96,171l36-27l18-27l18,27l36,27
+	c6.9-5,12.9-11.1,18.1-17.9l16.1-36.1c1.2-5.8,1.8-11.9,1.8-18c0-6.2-0.6-12.2-1.8-18L222,45z"/>
+<polygon fill="#FF6633" points="195,180 186,171 186,189 "/>
+<polygon fill="#FF6633" points="114,189 105,180 114,171 "/>
+<polygon fill="#FF6633" points="123,9 123,18 131.7,9 "/>
+<polygon fill="#FF6633" points="123,180 132,189 123,189 "/>
+<polygon fill="#FF6633" points="177,189 177,180 168.3,189 "/>
+<polygon fill="#FF6633" points="195,18 186,27 186,9 "/>
+<polygon fill="#FF6633" points="114,9 105,18 114,27 "/>
+<polygon fill="#FF6633" points="123,18 132,9 123,9 "/>
+<polygon fill="#FF6633" points="177,9 177,18 168.3,9 "/>
+<path fill="#FF6633" d="M123,153c0,14.9,12.1,27,27,27c14.9,0,27-12.1,27-27l22.5,22.5l4.5-4.5l-54-54l-54,54l4.5,4.5L123,153z"/>
+<path fill="#FF6633" d="M123,153c0,14.9,12.1,27,27,27c14.9,0,27-12.1,27-27l22.5,22.5l4.5-4.5l-54-54l-54,54l4.5,4.5L123,153z"/>
+<path fill="#FF6633" d="M177,45c0-14.9-12.1-27-27-27c-14.9,0-27,12.1-27,27l-22.5-22.5L96,27l54,54l54-54l-4.5-4.5L177,45z"/>
+<circle fill="#FFFFCC" cx="150" cy="99" r="18"/>
+<circle fill="#FFFFCC" cx="150" cy="153" r="18"/>
+<circle fill="#FFFFCC" cx="150" cy="45" r="18"/>
+<circle fill="#66CC66" cx="123" cy="72" r="9"/>
+<circle fill="#66CC66" cx="177" cy="72" r="9"/>
+<circle fill="#66CC66" cx="177" cy="126" r="9"/>
+<circle fill="#66CC66" cx="123" cy="126" r="9"/>
+<circle fill="#66CC66" cx="195" cy="98" r="9"/>
+<circle fill="#66CC66" cx="105" cy="98" r="9"/>
+<circle fill="#66CC66" cx="217.5" cy="98.5" r="4.5"/>
+<circle fill="#66CC66" cx="235.5" cy="98.5" r="4.5"/>
+<circle fill="#66CC66" cx="64.5" cy="98.5" r="4.5"/>
+<circle fill="#66CC66" cx="82.5" cy="98.5" r="4.5"/>
+<polygon fill="#FF6633" points="195,180 186,171 186,189 "/>
+<polygon fill="#FF6633" points="114,189 105,180 114,171 "/>
+<polygon fill="#FF6633" points="123,9 123,18 131.7,9 "/>
+<polygon fill="#FF6633" points="123,180 132,189 123,189 "/>
+<polygon fill="#FF6633" points="177,189 177,180 168.3,189 "/>
+<polygon fill="#FF6633" points="195,18 186,27 186,9 "/>
+<polygon fill="#FF6633" points="114,9 105,18 114,27 "/>
+<polygon fill="#FF6633" points="123,18 132,9 123,9 "/>
+<polygon fill="#FF6633" points="177,9 177,18 168.3,9 "/>
+<path fill="#99CCCC" d="M78,45c-7.9,10.5-13.5,22.7-16.2,36H114L78,45z"/>
+<path fill="#99CCCC" d="M186,81h52.2c-2.7-13.3-8.3-25.5-16.2-36L186,81z"/>
+<path fill="#99CCCC" d="M61.8,117c2.7,13.3,8.3,25.5,16.2,36l36-36H61.8z"/>
+<path fill="#99CCCC" d="M222,153c7.9-10.5,13.5-22.7,16.2-36H186L222,153z"/>
+</svg>
